@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@next/bundle-analyzer": "^15.0.3",
+    "cross-env": "^7.0.3",
+    "terser-webpack-plugin": "^5.3.10"
+  }
+}
