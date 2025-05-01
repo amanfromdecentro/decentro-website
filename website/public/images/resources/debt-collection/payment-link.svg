@@ -1,0 +1,50 @@
+<svg id="Payment_Link" data-name="Payment Link" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.627" height="51.417" viewBox="0 0 51.627 51.417">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="-0.496" y2="1.393" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#66ceac"/>
+      <stop offset="1" stop-color="#3a36c6"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_30655" data-name="Group 30655">
+    <g id="Group_22131" data-name="Group 22131" transform="translate(16.622)">
+      <g id="Group_22130" data-name="Group 22130" transform="translate(0 0)">
+        <path id="Path_54368" data-name="Path 54368" d="M194.735,3.969a13.588,13.588,0,0,0-19.2,0l-7.886,7.886a13.4,13.4,0,0,0-3.21,5.276l-.036.014a13.507,13.507,0,0,0,7,16.55l.512-.512a4.518,4.518,0,0,0,0-6.4,7.543,7.543,0,0,1,0-10.664l7.886-7.886A7.54,7.54,0,0,1,190.47,18.9l-5.988,5.988a16.653,16.653,0,0,1,.581,7.628,13.068,13.068,0,0,0,1.786-1.464l7.886-7.886A13.588,13.588,0,0,0,194.735,3.969Z" transform="translate(-163.7 0)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_22133" data-name="Group 22133" transform="translate(0 17.722)">
+      <g id="Group_22132" data-name="Group 22132" transform="translate(0)">
+        <path id="Path_54369" data-name="Path 54369" d="M31.073,179.367a12.9,12.9,0,0,0-3.775-2.623l-.491.491a4.518,4.518,0,0,0,0,6.4,7.543,7.543,0,0,1,0,10.664L18.9,202.2A7.54,7.54,0,1,1,8.238,191.54l6.008-6.008a16.654,16.654,0,0,1-.581-7.628,13.083,13.083,0,0,0-1.786,1.464l-7.906,7.906a13.573,13.573,0,1,0,19.2,19.2l7.906-7.906a13.4,13.4,0,0,0,3.21-5.276l.036-.014A13.54,13.54,0,0,0,31.073,179.367Z" transform="translate(-0.003 -176.744)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_22135" data-name="Group 22135" transform="translate(39.329 39.098)">
+      <g id="Group_22134" data-name="Group 22134">
+        <path id="Path_54370" data-name="Path 54370" d="M394.344,392.012l-2.133-2.133a1.508,1.508,0,1,0-2.133,2.133l2.133,2.133a1.508,1.508,0,1,0,2.133-2.133Z" transform="translate(-389.636 -389.437)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_22137" data-name="Group 22137" transform="translate(7.167 7.148)">
+      <g id="Group_22136" data-name="Group 22136">
+        <path id="Path_54371" data-name="Path 54371" d="M76.027,73.7l-2.133-2.133A1.508,1.508,0,0,0,71.761,73.7l2.133,2.133A1.508,1.508,0,0,0,76.027,73.7Z" transform="translate(-71.319 -71.121)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_22139" data-name="Group 22139" transform="translate(44.794 29.648)">
+      <g id="Group_22138" data-name="Group 22138">
+        <path id="Path_54372" data-name="Path 54372" d="M448.818,296.088l-2.914-.781a1.508,1.508,0,0,0-.781,2.914l2.914.781a1.508,1.508,0,1,0,.781-2.914Z" transform="translate(-444.005 -295.255)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_22141" data-name="Group 22141" transform="translate(0.922 17.949)">
+      <g id="Group_22140" data-name="Group 22140">
+        <path id="Path_54373" data-name="Path 54373" d="M13.992,179.581l-2.914-.781a1.508,1.508,0,1,0-.781,2.914l2.914.781a1.508,1.508,0,0,0,.781-2.914Z" transform="translate(-9.179 -178.748)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_22143" data-name="Group 22143" transform="translate(29.8 44.562)">
+      <g id="Group_22142" data-name="Group 22142">
+        <path id="Path_54374" data-name="Path 54374" d="M299.2,447.833l-.781-2.914a1.508,1.508,0,0,0-2.914.781l.781,2.914a1.508,1.508,0,1,0,2.914-.781Z" transform="translate(-295.454 -443.801)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g id="Group_22145" data-name="Group 22145" transform="translate(18.048 0.902)">
+      <g id="Group_22144" data-name="Group 22144">
+        <path id="Path_54375" data-name="Path 54375" d="M182.691,13.014,181.91,10.1a1.508,1.508,0,0,0-2.914.781l.781,2.914a1.508,1.508,0,0,0,2.914-.781Z" transform="translate(-178.945 -8.983)" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </g>
+</svg>

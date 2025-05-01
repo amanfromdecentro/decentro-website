@@ -1,0 +1,781 @@
+@import "../../utilities/_variables.scss";
+
+.bank-validation-apis {
+  .banner {
+    padding-bottom: 0;
+    margin-bottom: 30px;
+
+    .right-container {
+      img {
+        width: 65%;
+      }
+    }
+  }
+
+  .special-info-section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 50px 100px;
+    .special-info-wrapper {
+      border-radius: 40px;
+      background-color: #f7faff;
+      padding: 50px 100px;
+      width: 70%;
+      h2 {
+        font-size: $product-sections-header-font-size-desktop;
+        line-height: $product-sections-header-line-height-desktop;
+        font-weight: 400;
+        color: #096ef2;
+        text-align: center;
+        span {
+          font-weight: 600;
+        }
+      }
+      p.special-info-description {
+        text-align: center;
+        margin-top: 40px;
+        font-size: $product-pages-body-text-font-size-desktop;
+        line-height: $product-pages-body-text-line-height-desktop;
+      }
+    }
+  }
+  .bank-validation-details {
+    .inline-image-and-paragraph {
+      display: flex;
+      flex-flow: row;
+      scroll-behavior: smooth;
+      padding-top: 30px;
+
+      p {
+        font-size: 18px;
+        text-align: left;
+      }
+
+      .image {
+        align-items: center;
+        justify-content: center;
+      }
+
+      h2 {
+        .subheader-light {
+          font-weight: 400;
+        }
+      }
+    }
+
+    .inline-image-and-paragraph:nth-child(2) {
+      flex-flow: row-reverse;
+
+      .image {
+        img {
+          width: 60%;
+        }
+      }
+    }
+
+    .inline-image-and-paragraph:nth-child(1) {
+      .image {
+        img {
+          width: 80%;
+        }
+      }
+    }
+  }
+
+  .bank-validation-apis-applications,
+  .bank-validation-details {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 100px;
+
+    h2 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #096ef2;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    p {
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: $product-pages-body-text-line-height-desktop;
+      font-weight: 400;
+      color: #3c3c3c;
+      margin-top: 20px;
+      width: 65%;
+      text-align: center;
+    }
+
+    .bank-validation-apis-applications-content {
+      .inline-image-and-paragraph {
+        padding: 60px;
+        position: relative;
+
+        h2 {
+          font-size: 28px;
+          line-height: 34px;
+          font-weight: 400;
+
+          span {
+            font-weight: 600;
+          }
+
+          span.subheader-light {
+            font-weight: 400;
+          }
+
+          span.subheader-bold {
+            font-weight: 600;
+          }
+        }
+
+        p {
+          margin-top: 32px;
+          font-size: 20px;
+          line-height: 36px;
+          text-align: left;
+          width: 100%;
+        }
+
+        &:nth-child(2n) {
+          flex-flow: row-reverse;
+        }
+
+        .image {
+          align-items: center;
+
+          img {
+            width: 100%;
+          }
+        }
+
+        .paragraph {
+          justify-content: center;
+        }
+
+        .zoom-feature {
+          position: absolute;
+          bottom: 0;
+          box-sizing: border-box;
+
+          .explanatory-image-enlarged {
+            width: 100%;
+            height: 100%;
+            overflow-y: scroll;
+
+            img {
+              width: 75%;
+            }
+          }
+        }
+      }
+
+      .inline-image-and-paragraph:nth-child(1) {
+        .image {
+          align-items: center;
+          justify-content: center;
+          width: 45%;
+
+          img {
+            width: 100%;
+            max-width: 350px;
+          }
+        }
+
+        .zoom-feature {
+          width: 45%;
+          text-align: center;
+          left: 0;
+          padding-left: 60px;
+        }
+      }
+
+      .inline-image-and-paragraph:nth-child(2) {
+        .image {
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 100%;
+            max-width: 350px;
+          }
+        }
+
+        .zoom-feature {
+          width: 40%;
+          right: 0;
+          left: unset;
+          text-align: center;
+          padding-right: 60px;
+
+          .explanatory-image-enlarged {
+            img {
+              width: fit-content;
+            }
+          }
+        }
+      }
+
+      .inline-image-and-paragraph:nth-child(3) {
+        .zoom-feature {
+          width: 40%;
+          left: 0;
+          right: unset;
+          text-align: center;
+          padding-left: 60px;
+          padding-right: 0;
+        }
+      }
+
+      .inline-image-and-paragraph:nth-child(4) {
+        .zoom-feature {
+          width: 40%;
+          right: 0;
+          left: unset;
+          text-align: center;
+          padding-right: 60px;
+          padding-left: 0;
+        }
+      }
+
+      .inline-image-and-paragraph:nth-child(5) {
+        .image {
+          text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            width: 50%;
+          }
+        }
+
+        .zoom-feature {
+          width: 40%;
+          left: 0;
+          right: unset;
+          text-align: center;
+          padding-left: 60px;
+
+          .explanatory-image-enlarged {
+            img {
+              width: fit-content;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bank-validation-details {
+    .inline-image-and-paragraph:nth-child(2n) {
+      flex-direction: row-reverse;
+    }
+
+    .inline-image-and-paragraph:nth-child(2) {
+      .image {
+        img {
+          max-width: 400px;
+        }
+      }
+    }
+  }
+
+  .bullet-points-text-container {
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      font-weight: 400;
+      color: #3c3c3c;
+      margin-top: 30px;
+      width: 85%;
+    }
+
+    .bullet-points-header {
+      width: 100%;
+      text-align: left;
+      font-weight: 600;
+      width: 85%;
+    }
+
+    .bullet-points-text-content {
+      margin-top: 20px;
+
+      .text-block {
+        p {
+          font-weight: 600;
+          margin-top: 0;
+          line-height: 100%;
+        }
+
+        a {
+          margin-top: 15px;
+          line-height: 100%;
+        }
+      }
+    }
+  }
+
+  .signup-section {
+    p {
+      font-weight: 600;
+    }
+  }
+
+  .use-cases {
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+    .use-case-list {
+      .use-case-block {
+        margin-top: 0;
+
+        .image {
+          img {
+            width: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .bank-validation-apis {
+    .table-of-contents,
+    .bank-validation-apis-applications,
+    .use-cases,
+    .special-info-section {
+      padding: 50px;
+
+      h2 {
+        // font-size: 36px;
+        // line-height: 42px;
+        text-align: center;
+      }
+
+      p {
+        // font-size: 18px;
+        // line-height: 28px;
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+
+    .banner {
+      margin-bottom: 50px;
+    }
+
+    .special-info-section {
+      padding: 50px;
+
+      .special-info-wrapper {
+        h2 {
+          // font-size: 36px;
+          // line-height: 42px;
+          text-align: center;
+        }
+
+        p.special-info-description {
+          // font-size: 18px;
+          // line-height: 28px;
+          // margin-top: 20px;
+        }
+      }
+    }
+
+    .bank-validation-apis-applications {
+      p {
+        width: 80%;
+        margin-bottom: 20px;
+      }
+
+      .bank-validation-apis-applications-content {
+        .inline-image-and-paragraph {
+          padding: 30px;
+
+          h2 {
+            font-size: 24px;
+            line-height: 30px;
+          }
+
+          p {
+            font-size: 18px;
+            line-height: 28px;
+            text-align: left;
+          }
+
+          .image {
+            width: 35%;
+          }
+
+          .paragraph {
+            width: 55%;
+          }
+        }
+
+        .inline-image-and-paragraph:nth-child(n) {
+          .zoom-feature {
+            padding-left: 30px;
+            padding-right: 0;
+          }
+        }
+
+        .inline-image-and-paragraph:nth-child(2n) {
+          padding-right: 30px;
+          padding-left: 0;
+        }
+
+        .inline-image-and-paragraph:nth-child(2),
+        .inline-image-and-paragraph:nth-child(3),
+        .inline-image-and-paragraph:nth-child(4),
+        .inline-image-and-paragraph:nth-child(5) {
+          .zoom-feature {
+            width: 35%;
+          }
+        }
+      }
+    }
+
+    .bullet-points-text-container {
+      h2 {
+        font-size: 36px;
+        line-height: 42px;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 20px;
+      }
+
+      .bullet-points-header {
+        width: 100%;
+        text-align: left;
+        font-weight: 600;
+        width: 85%;
+      }
+
+      .bullet-points-text-content {
+        margin-top: 20px;
+
+        .text-block {
+          a {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+
+    .bank-validation-details {
+      .inline-image-and-paragraph {
+        .paragraph {
+          .inline-image-text-bullet-points {
+            .inline-image-text-bullet {
+              font-size: 18px;
+              line-height: 28px;
+
+              span {
+                font-size: 18px;
+                line-height: 28px;
+              }
+
+              &::before {
+                width: 15px;
+                height: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .bank-validation-apis {
+    .table-of-contents,
+    .bank-validation-apis-applications {
+      padding: 30px;
+
+      h2 {
+        // font-size: 30px;
+        // line-height: 40px;
+        text-align: center;
+      }
+
+      p {
+        // font-size: 16px;
+        // line-height: 24px;
+        text-align: center;
+        margin-top: 20px;
+        width: 80%;
+        margin-bottom: 20px;
+      }
+
+      .bank-validation-apis-applications-content {
+        .inline-image-and-paragraph {
+          padding: 20px;
+          margin-top: 30px;
+          flex-flow: column !important;
+
+          .image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            img {
+              max-width: 310px;
+            }
+          }
+
+          .paragraph {
+            justify-content: flex-start;
+
+            h2 {
+              color: #3c3c3c;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 30px;
+              margin-top: 20px;
+              text-align: center;
+            }
+
+            p {
+              margin-top: 10px;
+              font-size: 16px;
+              line-height: 26px;
+              text-align: center;
+            }
+          }
+        }
+
+        .inline-image-and-paragraph:nth-child(n) {
+          div.zoom-feature {
+            position: relative;
+            left: unset;
+            right: unset;
+            width: 100%;
+            text-align: center;
+            padding: 0;
+          }
+        }
+
+        .inline-image-and-paragraph:nth-child(1) {
+          .image {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .special-info-section {
+      padding: 50px 30px;
+
+      .special-info-wrapper {
+        padding: 50px 30px;
+
+        h2 {
+          // font-size: 30px;
+          // line-height: 40px;
+          text-align: center;
+        }
+
+        p.special-info-description {
+          // font-size: 16px;
+          // line-height: 24px;
+          // margin-top: 20px;
+        }
+      }
+    }
+
+    .bullet-points-text-container {
+      h2 {
+        font-size: 30px;
+        line-height: 40px;
+        text-align: center;
+      }
+
+      p {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 20px;
+      }
+
+      .bullet-points-header {
+        width: 100%;
+      }
+
+      .bullet-points-text-content {
+        margin-top: 20px;
+
+        .text-block {
+          a {
+            margin-top: 10px;
+            font-size: 22px;
+          }
+        }
+      }
+    }
+
+    .use-cases {
+      .use-case-list {
+        .use-case-block {
+          text-align: left;
+          align-items: flex-start;
+          justify-content: flex-start;
+          margin-top: 0;
+
+          .head {
+            text-align: left;
+            justify-content: flex-start;
+          }
+        }
+      }
+    }
+
+    .bank-validation-details {
+      .inline-image-and-paragraph {
+        .paragraph {
+          p {
+            font-size: 16px;
+          }
+
+          .inline-image-text-bullet-points {
+            .inline-image-text-bullet {
+              font-size: 16px;
+              line-height: 24px;
+              text-align: left;
+              margin-top: 20px;
+
+              span {
+                font-size: 16px;
+                line-height: 24px;
+                text-align: left;
+                margin-top: 20px;
+              }
+
+              &::before {
+                top: 5px;
+                width: 15px;
+                height: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .bank-validation-apis {
+    .table-of-contents,
+    .bank-validation-apis-applications {
+      h2 {
+        text-align: left;
+        align-self: flex-start;
+      }
+
+      p {
+        text-align: left;
+        align-self: flex-start;
+      }
+
+      .detailed-header,
+      .detailed-description {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+      }
+
+      .bank-validation-apis-applications-content {
+        .inline-image-and-paragraph {
+          .image {
+            img {
+              max-width: 310px;
+            }
+          }
+
+          .paragraph {
+            h2,
+            p {
+              text-align: left !important;
+              align-self: flex-start;
+            }
+          }
+        }
+
+        .inline-image-and-paragraph:nth-child(2) {
+          .image {
+            img {
+              max-width: 300px;
+            }
+          }
+        }
+      }
+    }
+
+    .special-info-section {
+      .special-info-wrapper {
+        // padding: 40px;
+      }
+    }
+
+    .bullet-points-text-container {
+      h2 {
+        text-align: left;
+      }
+    }
+
+    .use-cases {
+      .use-case-list {
+        .use-case-block {
+          img {
+            width: 30px;
+            height: 30px;
+          }
+
+          h4 {
+            margin-left: 10px;
+          }
+
+          p {
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .signup-section {
+      .text-and-button-banner {
+        p {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .bank-validation-apis {
+    .bullet-points-text-container {
+      .bullet-points-text-content {
+        .text-block {
+          a {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

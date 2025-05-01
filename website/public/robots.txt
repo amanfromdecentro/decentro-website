@@ -1,0 +1,4 @@
+Sitemap: https://decentro.tech/api/sitemap
+User-agent: *
+
+

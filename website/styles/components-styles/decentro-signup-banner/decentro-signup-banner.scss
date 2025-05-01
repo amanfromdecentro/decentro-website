@@ -1,0 +1,86 @@
+@import "../../../utilities/_variables.scss";
+
+.decentro-banner {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .banner-img {
+    height: 100%;
+  }
+
+  .decentro-metrics {
+    position: fixed;
+    top: 50%;
+    left: 25%;
+    transform: translate(-45%, -50%);
+    display: flex;
+    flex-flow: column;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 60px;
+    .metric-item {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 40px;
+      img {
+        max-width: 75px;
+      }
+      .metric-title {
+        font-size: 2.5125rem;
+        line-height: $product-banner-header-line-height-desktop;
+        font-weight: 600;
+        color: #ffffff;
+        span {
+          font-size: $product-banner-header-font-size-desktop;
+          line-height: $product-banner-header-line-height-desktop;
+          font-weight: 800;
+        }
+      }
+    }
+  }
+
+  .bannerText {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+
+    h3 {
+      font-size: 30px;
+    }
+
+    h2 {
+      font-size: 40px;
+    }
+
+    h3,
+    h2 {
+      color: #ffffff;
+      font-weight: 500;
+    }
+  }
+
+  .cancel-banner {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 25px;
+    height: 20px;
+    color: #ffffff;
+    font-weight: 400;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .decentro-banner {
+    display: none;
+  }
+}

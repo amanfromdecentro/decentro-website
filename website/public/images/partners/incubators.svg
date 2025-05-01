@@ -1,0 +1,13 @@
+<svg id="Incubators_Accelerators" data-name="Incubators&amp;Accelerators" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_9656" data-name="Rectangle 9656" width="35" height="35" fill="none"/>
+  <g id="Icon_ionic-ios-rocket" data-name="Icon ionic-ios-rocket" transform="translate(-1.151 -1.526)">
+    <path id="Path_78841" data-name="Path 78841" d="M33.776,3.787a.324.324,0,0,0-.242-.25c-4-.977-13.231,2.505-18.235,7.508a21.626,21.626,0,0,0-2.432,2.873,9.049,9.049,0,0,0-4.4.551c-3.71,1.631-4.79,5.892-5.091,7.721a.658.658,0,0,0,.72.764l5.958-.654a13.245,13.245,0,0,0,.081,1.344,1.333,1.333,0,0,0,.389.815l2.307,2.307a1.333,1.333,0,0,0,.815.389,13.222,13.222,0,0,0,1.337.081l-.654,5.951a.658.658,0,0,0,.764.72c1.829-.294,6.1-1.374,7.721-5.084a9.09,9.09,0,0,0,.558-4.386,21.66,21.66,0,0,0,2.88-2.432C31.278,17.011,34.739,7.982,33.776,3.787ZM21.786,15.534a3.138,3.138,0,1,1,4.437,0A3.135,3.135,0,0,1,21.786,15.534Z" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    <path id="Path_78842" data-name="Path 78842" d="M12.56,26.907h0a2.787,2.787,0,0,1-1.455.588,1.977,1.977,0,0,1-2.277-2.277,2.732,2.732,0,0,1,.58-1.447l.007-.007a.246.246,0,0,0-.206-.419,3.377,3.377,0,0,0-1.976.962c-1.322,1.322-1.447,6.23-1.447,6.23s4.915-.125,6.237-1.447a3.355,3.355,0,0,0,.962-1.976A.251.251,0,0,0,12.56,26.907Z" transform="translate(0.109 0.896)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

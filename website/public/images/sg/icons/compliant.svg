@@ -1,0 +1,12 @@
+<svg id="Compliant" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="99" viewBox="0 0 99 99">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#096ef2"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_229" data-name="Ellipse 229" cx="49.5" cy="49.5" r="49.5" fill="#d7e8ff"/>
+  <g id="kyc_home" transform="translate(27.732 24.578)">
+    <path id="Path_600" data-name="Path 600" d="M76.07,12.911c-.06-1.32-.06-2.579-.06-3.839a1.767,1.767,0,0,0-1.8-1.8c-7.5,0-13.2-2.159-17.935-6.778a1.851,1.851,0,0,0-2.519,0C49.018,5.113,43.32,7.273,35.822,7.273a1.767,1.767,0,0,0-1.8,1.8c0,1.26,0,2.519-.06,3.839-.24,12.6-.6,29.871,20.454,37.129l.6.12.6-.12C76.61,42.782,76.31,25.567,76.07,12.911ZM53.576,30.366a1.936,1.936,0,0,1-1.26.48h-.06a1.688,1.688,0,0,1-1.26-.6l-5.578-6.178,2.7-2.4L52.5,26.527l9.717-9.237,2.459,2.639Z" transform="translate(-33.908 0)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

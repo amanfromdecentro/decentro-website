@@ -1,0 +1,18 @@
+<svg id="multi_channel" data-name="multi channel" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="33.643" viewBox="0 0 35 33.643">
+  <defs>
+    <linearGradient id="linear-gradient" x1="2.962" y1="-0.445" x2="-0.313" y2="2.445" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1_110_">
+    <g id="Group_42843" data-name="Group 42843">
+      <path id="Path_90914" data-name="Path 90914" d="M14.809,13.648,12.68,11.636a3.12,3.12,0,0,0,.4-1.511A3.179,3.179,0,1,0,11.593,12.8l2.126,2.01A7.232,7.232,0,0,1,14.809,13.648Z" transform="translate(-1.727 -2.457)" fill="url(#linear-gradient)"/>
+      <path id="Path_90915" data-name="Path 90915" d="M29.193,11.85l2.829-4.761a3.122,3.122,0,1,0-1.372-.8l-2.82,4.747A7.065,7.065,0,0,1,29.193,11.85Z" transform="translate(-7.105 -0.911)" fill="url(#linear-gradient)"/>
+      <path id="Path_90916" data-name="Path 90916" d="M40.348,20.952a3.155,3.155,0,0,0-2.955,2.066l-3.93-.388c0,.03,0,.058,0,.087a7.238,7.238,0,0,1-.159,1.5l3.929.388a3.153,3.153,0,1,0,3.111-3.65Z" transform="translate(-8.504 -6.028)" fill="url(#linear-gradient)"/>
+      <path id="Path_90917" data-name="Path 90917" d="M27.081,36.308l-.879-3.84a7.2,7.2,0,0,1-1.55.358l.88,3.84a3.148,3.148,0,1,0,1.549-.359Z" transform="translate(-6.084 -8.968)" fill="url(#linear-gradient)"/>
+      <path id="Path_90918" data-name="Path 90918" d="M10.691,25.37,5.8,27.009a3.152,3.152,0,1,0,.517,1.722c0-.073-.016-.14-.022-.211L11.2,26.876A7.21,7.21,0,0,1,10.691,25.37Z" transform="translate(0 -7.156)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_2866" data-name="Ellipse 2866" cx="5.415" cy="5.415" r="5.415" transform="translate(12.331 11.275)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+</svg>

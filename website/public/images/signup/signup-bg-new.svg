@@ -1,0 +1,51 @@
+<svg id="Signup_BG" data-name="Signup BG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1931.482" height="1080.109" viewBox="0 0 1931.482 1080.109">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#5c6ccd"/>
+      <stop offset="1" stop-color="#5753b5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#086ef2"/>
+      <stop offset="1" stop-color="#32cbd1"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="Path_4517" data-name="Path 4517" d="M0,0H1919.978l0,1078.969L0,1079.512Z" transform="translate(0)" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#54d8ff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a7a7ff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-7" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#30c6d4" stop-opacity="0.502"/>
+      <stop offset="1" stop-color="#096ef2" stop-opacity="0.102"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_4516" data-name="Path 4516" d="M-.727-.5H1930.755l0,1080H-.727Z" transform="translate(0.727 0.504)" fill="url(#linear-gradient-2)"/>
+  <g id="Mask_Group_19" data-name="Mask Group 19" transform="translate(0.017 0.598)" clip-path="url(#clip-path)">
+    <g id="Total_Views_Graph" data-name="Total Views Graph" transform="translate(-1211.911 500.472)" opacity="0.201">
+      <path id="Filled.Graph" d="M330,754.255V354.422S692.153,751.94,989.645,766.9c331.928-3.369,335.379-207.313,627.058-318.442,244.185-87.258,429.779,151.71,634.03,157.516s345.214-163.13,623.873-174.867c361.037,17.675,650.743,243.38,673.223,255.516V851.635L330,851.925Z" transform="translate(-329.208 -354.422)" opacity="0.7" fill="url(#linear-gradient-3)"/>
+      <path id="Line.Graph" d="M312.953,279.164s373.424,404.843,665.27,408.629S1369.869,449.26,1604.2,367.566s437.611,155.827,633.254,158.807S2620.412,347.93,2860.8,352.86s515.225,142.169,667.167,250.426" transform="translate(-312.953 -275.777)" fill="none" stroke="#30c6d4" stroke-width="2"/>
+    </g>
+    <g id="Total_Views_Graph-2" data-name="Total Views Graph" transform="translate(-847.814 439.052)" opacity="0.201">
+      <path id="Line.Graph-2" data-name="Line.Graph" d="M312.953,279.164s373.424,404.843,665.27,408.629S1369.869,449.26,1604.2,367.566s437.611,155.827,633.254,158.807S2620.412,347.93,2860.8,352.86s515.225,142.169,667.167,250.426" transform="translate(-312.953 -275.777)" fill="none" stroke="#30c6d4" stroke-width="2"/>
+      <path id="Filled.Graph-2" data-name="Filled.Graph" d="M330,754.255V354.422S692.153,751.94,989.645,766.9c91.28-.927,150.838-18,205.873-43.352,145.045-66.808,229.937-203.31,418.418-274.746,34.918-12.478,70.69-17.7,103.176-18.5,196.7-4.83,358.578,170.7,533.621,175.672,204.251,5.806,345.214-163.13,623.873-174.867,361.037,17.675,650.743,243.38,673.223,255.516V851.635L330,851.925Z" transform="translate(-328.005 -354.422)" opacity="0.7" fill="url(#linear-gradient-3)"/>
+    </g>
+    <g id="Products_Sold_Graph" data-name="Products Sold Graph" transform="translate(-660.129 392.402)" opacity="0.201">
+      <path id="Filled.Graph-3" data-name="Filled.Graph" d="M330,857.663V595.827S701.05,767.569,997.52,778.355C1318.1,767.9,1373.608,694.4,1623.314,595.827c213.385-82.164,426.186-104.714,630.437-98.908s381.283,94.563,622.552,103.659c425.624-36.646,642.779-221.919,671.535-299.3V955.043l-1706.363.154L330,955.333Z" transform="translate(-330 -268.223)" opacity="0.7" fill="url(#linear-gradient-5)"/>
+      <path id="Line.Graph-3" data-name="Line.Graph" d="M313,543.529S681.654,719.365,973.138,723.151s403.444-90.739,626.7-179.388,435.5-103.779,630.9-100.8,385.358,95.878,625.447,100.809,628.5-160.582,671.7-298.533" transform="translate(-310.047 -212.186)" fill="none" stroke="#30c6d4" stroke-width="2"/>
+    </g>
+    <g id="Products_Sold_Graph-2" data-name="Products Sold Graph" transform="translate(-845.711 296.608)" opacity="0.201">
+      <path id="Filled.Graph-4" data-name="Filled.Graph" d="M0,556.387V294.55S371.05,466.292,667.52,477.079c320.577-10.453,376.088-83.953,625.794-182.528,213.385-82.164,426.186-104.714,630.437-98.908S2305.034,290.206,2546.3,299.3C2971.927,262.656,3189.081,77.382,3217.837,0V653.766L0,654.056Z" transform="matrix(0.978, -0.208, 0.208, 0.978, -62, 670.026)" opacity="0.7" fill="url(#linear-gradient-5)"/>
+      <path id="Line.Graph-4" data-name="Line.Graph" d="M313,543.529S681.654,719.365,973.138,723.151s403.444-90.739,626.7-179.388,435.5-103.779,630.9-100.8,385.358,95.878,625.447,100.809,628.5-160.582,671.7-298.533" transform="translate(-523.213 114.073)" fill="none" stroke="#30c6d4" stroke-width="2"/>
+    </g>
+  </g>
+  <g id="Decentro_Monogram_Black" data-name="Decentro Monogram Black" transform="translate(0.015)">
+    <g id="Decentro_Monogram_Black-2" data-name="Decentro Monogram Black">
+      <path id="Path_2527" data-name="Path 2527" d="M643.68,210.461l-427.915-.009V838.343s34.841-21.029,87.779-38.761,110.82-13.092,110.82-13.092l-.05-377.622H638.31c205.615,0,338.662,114.95,338.662,290.436S843.925,989.665,638.355,989.665h-25.47v198.406h30.8c316.974,0,533.551-195.513,533.551-488.768S960.655,210.461,643.68,210.461Z" transform="translate(-215.765 -210.452)" fill="url(#linear-gradient-7)"/>
+    </g>
+  </g>
+</svg>

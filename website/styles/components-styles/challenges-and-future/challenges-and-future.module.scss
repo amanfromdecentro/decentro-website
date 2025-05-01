@@ -1,0 +1,204 @@
+@import "../../../utilities/_variables.scss";
+
+.challenges-and-future {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 100px;
+
+  h2 {
+    font-size: $product-sections-header-font-size-desktop;
+    line-height: $product-sections-header-line-height-desktop;
+    font-weight: 400;
+    color: #0a192c;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  p {
+    text-align: left;
+  }
+
+  p.tagline {
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: $product-pages-body-text-line-height-desktop;
+    font-weight: 400;
+    color: #68727d;
+    margin-top: 20px;
+    text-align: center;
+    width: 85%;
+  }
+
+  .challenges {
+    .inline-image-and-paragraph {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-between;
+      padding: 60px;
+
+      h2 {
+        color: #3c3c3c;
+        font-size: $product-sections-subheader-font-size-desktop;
+        font-weight: 600;
+        line-height: $product-sections-subheader-line-height-desktop;
+      }
+
+      p {
+        margin-top: 40px;
+        color: #3c3c3c;
+        font-size: $product-pages-body-text-font-size-desktop;
+        line-height: $product-pages-body-text-line-height-desktop;
+      }
+
+      &:nth-child(2) {
+        flex-flow: row-reverse;
+      }
+
+      .image {
+        align-items: center;
+        width: 35%;
+        display: flex;
+
+        img {
+          max-width: 80%;
+        }
+      }
+
+      .paragraph {
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 55%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .challenges-and-future {
+    padding: 50px;
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .challenges {
+      .inline-image-and-paragraph {
+        padding: 30px;
+
+        p {
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .challenges-and-future {
+    padding: 30px;
+
+    h2 {
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .challenges {
+      .inline-image-and-paragraph {
+        padding: 20px;
+        margin-top: 30px;
+        flex-flow: column;
+
+        h2 {
+          color: #3c3c3c;
+          margin-top: 20px;
+          width: 100%;
+          text-align: center;
+        }
+
+        p {
+          line-height: 26px;
+        }
+
+        .image {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+
+          img {
+            max-width: 150px;
+          }
+        }
+
+        .paragraph {
+          width: 100% !important;
+          align-items: flex-start;
+          text-align: left;
+        }
+      }
+
+      .inline-image-and-paragraph:nth-child(2) {
+        flex-flow: column;
+      }
+    }
+  }
+
+  .use-cases {
+    .use-case-list {
+      .use-case-block {
+        width: calc(100% - 40px);
+        padding: 20px;
+        height: unset;
+
+        .image {
+          height: unset;
+
+          img {
+            width: 120px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .challenges-and-future {
+    h2,
+    p {
+      text-align: left;
+      align-self: flex-start;
+    }
+
+    p.tagline {
+      text-align: left;
+    }
+
+    .challenges {
+      .inline-image-and-paragraph {
+        h2 {
+          text-align: left;
+        }
+      }
+    }
+  }
+
+  .text-and-button-banner {
+    a {
+      align-self: center;
+    }
+  }
+}

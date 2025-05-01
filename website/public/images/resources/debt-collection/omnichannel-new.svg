@@ -1,0 +1,11 @@
+<svg id="_001-cascade-rectangular-rellena" data-name="001-cascade-rectangular-rellena" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59.559" height="50.937" viewBox="0 0 59.559 50.937">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.413" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_59269" data-name="Path 59269" d="M314.317,372.737V345.658A3.661,3.661,0,0,0,310.658,342h-.951v22.469a7.307,7.307,0,0,1-7.317,7.317H271.3v.951a3.661,3.661,0,0,0,3.658,3.658h35.706A3.652,3.652,0,0,0,314.317,372.737Z" transform="translate(-254.758 -325.458)" fill="url(#linear-gradient)"/>
+  <path id="Path_59270" data-name="Path 59270" d="M143.968,236.185H135.7v.951a3.661,3.661,0,0,0,3.658,3.658h35.7a3.661,3.661,0,0,0,3.658-3.658V210.058a3.661,3.661,0,0,0-3.658-3.658h-.951v22.469a7.307,7.307,0,0,1-7.317,7.317Z" transform="translate(-127.426 -198.126)" fill="url(#linear-gradient)"/>
+  <path id="Path_59271" data-name="Path 59271" d="M0,101.443A3.661,3.661,0,0,0,3.658,105.1h35.7a3.661,3.661,0,0,0,3.658-3.658V74.358A3.661,3.661,0,0,0,39.358,70.7H3.658A3.661,3.661,0,0,0,0,74.358Z" transform="translate(0 -70.7)" fill="url(#linear-gradient)"/>
+</svg>

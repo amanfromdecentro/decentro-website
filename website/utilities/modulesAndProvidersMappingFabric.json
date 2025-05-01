@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "displayName": "KYC, UIStreams & HyperStreams",
+            "description": "User & Business Validation using documents like Aadhaar, PAN & more. Also Digilocker, CKYC, etc.",
+            "id": 4,
+            "modules": [
+                {
+                    "moduleCode": "kyc_and_onboarding",
+                    "moduleId": 2,
+                    "moduleProviderDetails": [
+                        {
+                            "providerName": "",
+                            "id": 0
+                        }
+                    ],
+                    "credits": "50"
+                }
+            ]
+        },
+        {
+            "displayName": "Bytes (Data Aggregation)",
+            "description": "Consumer data fetching using mobile numbers & analyzing credit data.",
+            "id": 5,
+            "modules": [
+                {
+                    "moduleCode": "financial_services",
+                    "moduleId": 4, 
+                    "moduleProviderDetails": [
+                        {
+                            "providerName": "eqfx",
+                            "id": 247
+                        }
+                    ],
+                    "credits": "50"
+                }
+            ]
+        }
+    ]
+}

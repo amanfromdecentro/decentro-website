@@ -1,0 +1,32 @@
+<svg id="_008-bill" data-name="008-bill" xmlns="http://www.w3.org/2000/svg" width="110.049" height="97.984" viewBox="0 0 110.049 97.984">
+  <g id="Group_23453" data-name="Group 23453">
+    <rect id="Rectangle_2886" data-name="Rectangle 2886" width="60.283" height="97.984" fill="#fff"/>
+    <g id="Group_23457" data-name="Group 23457" transform="translate(7.058 11.753)">
+      <rect id="Rectangle_2887" data-name="Rectangle 2887" width="29.927" height="3.567" transform="translate(8.12)" fill="#ccc"/>
+      <rect id="Rectangle_2888" data-name="Rectangle 2888" width="20.037" height="3.567" transform="translate(13.065 6.831)" fill="#ccc"/>
+      <rect id="Rectangle_2889" data-name="Rectangle 2889" width="46.166" height="2.919" transform="translate(0 23.693)" fill="#ccc"/>
+      <rect id="Rectangle_2890" data-name="Rectangle 2890" width="46.166" height="2.919" transform="translate(0 31.84)" fill="#ccc"/>
+      <rect id="Rectangle_2891" data-name="Rectangle 2891" width="24.786" height="2.919" transform="translate(1.935 45.854)" fill="#ccc"/>
+      <rect id="Rectangle_2892" data-name="Rectangle 2892" width="24.786" height="2.919" transform="translate(1.935 53.637)" fill="#ccc"/>
+      <rect id="Rectangle_2893" data-name="Rectangle 2893" width="24.786" height="2.919" transform="translate(1.935 61.42)" fill="#ccc"/>
+      <rect id="Rectangle_2894" data-name="Rectangle 2894" width="24.786" height="2.919" transform="translate(1.935 69.203)" fill="#ccc"/>
+      <rect id="Rectangle_2895" data-name="Rectangle 2895" width="9.868" height="2.919" transform="translate(34.364 45.854)" fill="#ccc"/>
+      <rect id="Rectangle_2896" data-name="Rectangle 2896" width="9.868" height="2.919" transform="translate(34.364 53.637)" fill="#ccc"/>
+      <rect id="Rectangle_2897" data-name="Rectangle 2897" width="9.868" height="2.919" transform="translate(34.364 61.42)" fill="#ccc"/>
+      <rect id="Rectangle_2898" data-name="Rectangle 2898" width="9.868" height="2.919" transform="translate(34.364 69.203)" fill="#ccc"/>
+    </g>
+  </g>
+  <g id="Group_23454" data-name="Group 23454" transform="translate(41.96 23.574)">
+    <rect id="Rectangle_2899" data-name="Rectangle 2899" width="64.098" height="32.195" transform="translate(68.089 22.765) rotate(135)" fill="#006132"/>
+    <rect id="Rectangle_2900" data-name="Rectangle 2900" width="21.772" height="53.675" transform="translate(22.765 60.719) rotate(-135)" fill="#00783e"/>
+    <ellipse id="Ellipse_1299" data-name="Ellipse 1299" cx="7.787" cy="5.804" rx="7.787" ry="5.804" transform="translate(35.446 43.656) rotate(-135)" fill="#006132"/>
+  </g>
+  <g id="Group_23455" data-name="Group 23455" transform="translate(57.324 25.774)">
+    <circle id="Ellipse_1300" data-name="Ellipse 1300" cx="11.812" cy="11.812" r="11.812" fill="#d9a460"/>
+    <circle id="Ellipse_1301" data-name="Ellipse 1301" cx="8.427" cy="8.427" r="8.427" transform="translate(3.385 3.385)" fill="#fedd3d"/>
+  </g>
+  <g id="Group_23456" data-name="Group 23456" transform="translate(71.726 2.844)">
+    <circle id="Ellipse_1302" data-name="Ellipse 1302" cx="9.106" cy="9.106" r="9.106" fill="#5c6670"/>
+    <circle id="Ellipse_1303" data-name="Ellipse 1303" cx="6.497" cy="6.497" r="6.497" transform="translate(2.61 2.61)" fill="#d1d3d3"/>
+  </g>
+</svg>

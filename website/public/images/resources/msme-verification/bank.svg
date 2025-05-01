@@ -1,0 +1,9 @@
+<svg id="Bank" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38.001" viewBox="0 0 38 38.001">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.033" y1="0.214" x2="0.75" y2="0.877" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="_8665033_bank_icon" data-name="8665033_bank_icon" d="M18.062.192a2.373,2.373,0,0,1,1.87,0L36.557,7.317a2.368,2.368,0,0,1,1.388,2.658,2.455,2.455,0,0,1-2.39,1.9v.594a1.736,1.736,0,0,1-1.781,1.781H4.086A1.823,1.823,0,0,1,2.3,12.469v-.594a2.431,2.431,0,0,1-2.26-1.9A2.377,2.377,0,0,1,1.436,7.317ZM19,9.5a2.375,2.375,0,1,0-2.375-2.375A2.372,2.372,0,0,0,19,9.5ZM9.43,30.875H12.4V16.625h4.75v14.25h3.629V16.625h4.75v14.25H28.5V16.625h4.75V31.195c.045.022.089-.015.134.082l3.563,2.375A2.376,2.376,0,0,1,35.622,38H2.3a2.374,2.374,0,0,1-1.251-4.349l3.563-2.375c.042-.1.086-.059.063-.082V16.625H9.43Z" transform="translate(0.004 0)" fill="url(#linear-gradient)"/>
+</svg>

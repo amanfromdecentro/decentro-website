@@ -1,0 +1,12 @@
+<svg id="Faster_Timelines" data-name="Faster Timelines" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="99" viewBox="0 0 99 99">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#096ef2"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_229" data-name="Ellipse 229" cx="49.5" cy="49.5" r="49.5" fill="#d7e8ff"/>
+  <g id="fast-forward" transform="translate(27.289 27.906)">
+    <path id="fast-forward-2" data-name="fast-forward" d="M45.3,119.639v-39.2a2.188,2.188,0,0,1,3.664-1.134c1.421,1.147,2.829,2.306,4.238,3.452,2.069,1.683,4.138,3.378,6.194,5.06,2.916,2.381,5.82,4.761,8.749,7.129.125.1.212.3.436.2V81.027a2.17,2.17,0,0,1,1.309-2.119,2.274,2.274,0,0,1,2.505.411q2.486,2.019,4.973,4.063l6.356,5.2c3.427,2.8,6.867,5.6,10.282,8.413.424.349.848.7,1.271,1.034a2.362,2.362,0,0,1,1.047,1.608v.9c-.137.935-.9,1.4-1.545,1.919-4.636,3.764-9.248,7.553-13.872,11.317q-4.206,3.421-8.4,6.867a2.723,2.723,0,0,1-1.558.71,2.225,2.225,0,0,1-2.381-2.293c-.012-4.711.012-9.422-.012-14.134-.212-.112-.3.087-.411.187q-6.917,5.646-13.835,11.3c-1.795,1.471-3.59,2.954-5.409,4.4a2.24,2.24,0,0,1-3.216-.237A2.294,2.294,0,0,1,45.3,119.639Z" transform="translate(-45.3 -78.695)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

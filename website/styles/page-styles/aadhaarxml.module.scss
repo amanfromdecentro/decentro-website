@@ -1,0 +1,79 @@
+@import "../../utilities/_variables.scss";
+
+.inline-image-and-paragraph {
+  flex-direction: row-reverse;
+}
+.digilocker {
+  .endless-possibilities,
+  .commonly-asked-questions {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 80px;
+    gap: 20px;
+    .accordion-list {
+      margin-top: 40px;
+    }
+
+    h2 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #0a192c;
+
+      span {
+        font-weight: 600;
+      }
+    }
+    p {
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: $product-pages-body-text-line-height-desktop;
+      color: #68727d;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .digilocker {
+    .commonly-asked-questions,
+    .endless-possibilities {
+      padding: 50px;
+      .accordion-list {
+        padding: 50px 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .digilocker {
+    .commonly-asked-questions,
+    .endless-possibilities {
+      padding: 50px 30px;
+      .accordion-list {
+        padding: 30px;
+      }
+      h2 {
+        text-align: left;
+        width: 100%;
+      }
+      p {
+        text-align: left;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .digilocker {
+    .commonly-asked-questions,
+    .endless-possibilities {
+      .accordion-list {
+        padding: 30px 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+<svg id="Invoice" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25.178" height="33.233" viewBox="0 0 25.178 33.233">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_68753" data-name="Path 68753" d="M19.088,32.541H6.218V28.55H.064V59.929H25.242V28.55H19.088Zm-3.483,22.9H9.7V53.5h5.9Zm2.936-3.894H6.764V49.6H18.541Z" transform="translate(-0.064 -26.696)" fill="url(#linear-gradient)"/>
+  <path id="Path_68754" data-name="Path 68754" d="M124.874,0h8.976V3.9h-8.976Z" transform="translate(-116.775)" fill="url(#linear-gradient)"/>
+  <path id="Icon_awesome-rupee-sign" data-name="Icon awesome-rupee-sign" d="M6.8,1.413a.265.265,0,0,0,.265-.265V.265A.265.265,0,0,0,6.8,0H.265A.265.265,0,0,0,0,.265v.988a.265.265,0,0,0,.265.265H2.147a1.592,1.592,0,0,1,1.346.6H.265A.265.265,0,0,0,0,2.384v.883a.265.265,0,0,0,.265.265h3.5a1.525,1.525,0,0,1-1.65,1.294H.265A.265.265,0,0,0,0,5.09V6.26a.265.265,0,0,0,.085.195L3.728,9.817a.265.265,0,0,0,.18.07H5.73a.265.265,0,0,0,.18-.459L2.579,6.354A3.024,3.024,0,0,0,5.632,3.531H6.8a.265.265,0,0,0,.265-.265V2.384A.265.265,0,0,0,6.8,2.119H5.5a3.023,3.023,0,0,0-.315-.706Z" transform="translate(9.058 9.099)" fill="#d7e8ff"/>
+</svg>

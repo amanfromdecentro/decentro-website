@@ -1,0 +1,133 @@
+@import "../../utilities/_variables.scss";
+
+.partners {
+  .sectors-section,
+  .partners-type-section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    margin: 50px 0;
+    h2 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #0a192c;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    p {
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: $product-pages-body-text-line-height-desktop;
+      font-weight: 400;
+      color: #3c3c3c;
+      margin-top: 20px;
+      flex: 3;
+    }
+  }
+
+  .sectors-section {
+    margin: 0;
+  }
+  .partners-type-section {
+    padding: 0;
+  }
+
+  .get-started-btn {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: max-content;
+      margin-top: 80px;
+      padding: 15px 45px;
+      font-size: $product-pages-body-text-font-size-desktop;
+      font-weight: 600;
+      line-height: 22px;
+      border-radius: 34px;
+      color: #ffffff;
+      border: none;
+      background: transparent linear-gradient(90deg, #096ef2 0%, #0092ff 100%)
+        0% 0% no-repeat padding-box;
+    }
+  }
+
+  .commonly-asked-questions {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 80px;
+    .accordion-list {
+      margin-top: 40px;
+    }
+
+    h2 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #0a192c;
+
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .partners {
+    .sectors-section,
+    .partners-type-section,
+    .commonly-asked-questions {
+      padding: 50px;
+    }
+    .commonly-asked-questions {
+      .accordion-list {
+        padding: 50px 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .partners {
+    .sectors-section,
+    .partners-type-section,
+    .commonly-asked-questions {
+      padding: 50px 30px;
+    }
+    .commonly-asked-questions {
+      .accordion-list {
+        padding: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .partners {
+    .sectors-section,
+    .partners-type-section,
+    .commonly-asked-questions {
+      h2 {
+        text-align: left;
+        align-self: flex-start;
+      }
+
+      p {
+        text-align: left;
+        align-self: flex-start;
+      }
+    }
+    .commonly-asked-questions {
+      .accordion-list {
+        padding: 30px 0;
+      }
+    }
+  }
+}

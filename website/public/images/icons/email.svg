@@ -1,0 +1,10 @@
+<svg id="Component_2070_4" data-name="Component 2070 – 4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38.379" height="28.791" viewBox="0 0 38.379 28.791">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_92086" data-name="Path 92086" d="M368.651,115.095,352.838,104.57v17.577c0,1.535,1.968,3.171,3.48,3.114l31.466,0a3.671,3.671,0,0,0,3.41-3.072V104.57l-15.813,10.525a5.849,5.849,0,0,1-6.729,0Z" transform="translate(-352.836 -96.472)" fill="url(#linear-gradient)"/>
+  <path id="Path_92087" data-name="Path 92087" d="M391.184,62.485a3.714,3.714,0,0,0-3.335-3.072l-31.615,0a3.53,3.53,0,0,0-2.462,5.916l16.367,10.983c1.573.88,2.629.653,4.108-.225,5.171-3.071,10.085-7.015,15.237-10.164a3.745,3.745,0,0,0,1.7-2.46,5.653,5.653,0,0,0,0-.974Z" transform="translate(-352.826 -59.409)" fill="url(#linear-gradient)"/>
+</svg>

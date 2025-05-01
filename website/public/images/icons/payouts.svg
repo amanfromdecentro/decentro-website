@@ -1,0 +1,12 @@
+<svg id="Payouts_prod" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="99" viewBox="0 0 99 99">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.751" y1="0.021" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_229" data-name="Ellipse 229" cx="49.5" cy="49.5" r="49.5" fill="#dae7fd"/>
+  <g id="Payout_products" transform="translate(28.922 24.5)">
+    <path id="Payout" d="M129.289,102.407c0,15-11.069,24.993-27.282,24.993H92.763l17.72-17.719c.232-.232.333-.188.536.014.9.913,1.8,1.826,2.709,2.709a1.5,1.5,0,0,0,2.666-1.159c0-3.984-.029-7.983.014-11.968a1.66,1.66,0,0,0-1.8-1.8c-3.941.043-7.882.014-11.837.014a3.778,3.778,0,0,0-1.2.174c-.145.159-.3.3-.464.464a1.488,1.488,0,0,0,.2,2.072c.116.13.232.246.348.362l2.188,2.188c.377.377.377.42-.014.811-.1.1-.2.188-.29.29L80.1,127.3V117.244h.014V77.4h21.863a39.93,39.93,0,0,1,6.983.666C121.32,80.544,129.289,89.672,129.289,102.407Z" transform="translate(-80.1 -77.4)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

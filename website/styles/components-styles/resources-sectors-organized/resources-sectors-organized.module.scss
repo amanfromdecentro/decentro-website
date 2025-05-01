@@ -1,0 +1,253 @@
+@import "../../../utilities/variables";
+
+.why-decentro {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 50px 100px;
+  position: relative;
+
+  img.banner-bg {
+    position: absolute;
+    top: -100px;
+    left: 0;
+    z-index: -1;
+  }
+
+  img.bg-curves {
+    position: absolute;
+    top: -100px;
+    right: 0;
+    left: auto;
+    z-index: -1;
+  }
+
+  h2 {
+    font-size: $product-sections-header-font-size-desktop;
+    line-height: $product-sections-header-line-height-desktop;
+    font-weight: 400;
+    color: #096ef2;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  p.tagline {
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: 22px;
+    font-weight: 400;
+    color: #68727d;
+    margin-top: 20px;
+    text-align: center;
+    width: 50%;
+  }
+
+  p.tagline-highlighted {
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: 22px;
+    font-weight: 600;
+    color: #096ef2;
+    margin-top: 20px;
+  }
+
+  .why-decentro-steps {
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90%;
+
+    .item {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+
+      .item-image {
+        width: 70px;
+        height: 70px;
+        padding: 20px;
+        background: #d7e8ff;
+        border-radius: 100px;
+        box-sizing: border-box;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .item-title {
+        font-size: $product-sections-subheader-font-size-desktop;
+        line-height: 28px;
+        font-weight: 600;
+        color: #0a192c;
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+      }
+    }
+
+    img.process-line1 {
+      position: absolute;
+      width: 275px;
+      height: 56px;
+      top: -40px;
+      left: 21%;
+    }
+
+    img.process-line2 {
+      position: absolute;
+      width: 275px;
+      height: 56px;
+      top: -40px;
+      left: 56%;
+    }
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin-top: 80px;
+    padding: 15px 45px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: $product-sections-subheader-line-height-desktop;
+    border-radius: 100px;
+    color: #ffffff;
+    border: none;
+    background: transparent linear-gradient(90deg, #3a36c6 0%, #66ceac 100%) 0%
+      0%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .why-decentro {
+    .why-decentro-steps {
+      // gap: 80px;
+
+      .item {
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .why-decentro {
+    padding: 50px;
+
+    .why-decentro-steps {
+      width: 100%;
+      align-items: center;
+
+      .item {
+        .item-image {
+          max-width: 75px;
+        }
+      }
+    }
+
+    a {
+      margin-top: 50px;
+      padding: 15px 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .why-decentro {
+    padding: 50px 30px;
+
+    img.banner-bg {
+      display: none;
+    }
+
+    img.bg-curves {
+      display: none;
+    }
+
+    h2 {
+      width: 100%;
+      text-align: center;
+    }
+
+    p.tagline {
+      margin-top: 20px;
+      width: 100%;
+      text-align: center;
+    }
+
+    p.tagline-highlighted {
+      width: 100%;
+      text-align: center;
+    }
+
+    .why-decentro-steps {
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+      grid-template-columns: repeat(2, 1fr);
+      width: 100%;
+      grid-column-gap: 50px;
+      grid-row-gap: 60px;
+      display: grid;
+
+      .item {
+        width: 100%;
+
+        .item-image {
+          max-width: 75px;
+        }
+      }
+
+      img.process-line1,
+      img.process-line2 {
+        display: none;
+      }
+    }
+
+    a {
+      margin-top: 50px;
+
+      padding: 10px 35px;
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .why-decentro {
+    h2 {
+      align-self: center;
+    }
+
+    p.tagline {
+      text-align: center;
+    }
+
+    .why-decentro-steps {
+      grid-template-columns: repeat(1, 1fr);
+
+      .step-block {
+        align-items: flex-start;
+
+        h4 {
+          align-self: flex-start;
+        }
+
+        p {
+          text-align: left;
+        }
+      }
+    }
+
+    a {
+      align-self: flex-start;
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<svg id="Realtime_transfer" data-name="Realtime transfer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.913" height="34.913" viewBox="0 0 34.913 34.913">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_12228" data-name="Path 12228" d="M53.207,284.361l-2.955,5.8-.049.1L47.3,295.969l-2.913-5.722-.042-.082-2.955-5.8h3v-4.2a10.752,10.752,0,0,0,2.336.382c.192.01.388.015.581.015a10.744,10.744,0,0,0,2.9-.4v4.2Zm0,0" transform="translate(-38.563 -261.058)" fill="url(#linear-gradient)"/>
+  <path id="Path_12229" data-name="Path 12229" d="M9.191.012a8.728,8.728,0,1,0,8.252,9.18A8.728,8.728,0,0,0,9.191.012ZM10.542,13.4H9.755v1.372H7.709V13.4H5.089V11.351h5.453a.8.8,0,0,0,0-1.6H6.913a2.846,2.846,0,1,1,0-5.692h.8V2.68H9.755V4.057h2.611V6.1H6.913a.8.8,0,1,0,0,1.6h3.63a2.846,2.846,0,1,1,0,5.692Zm0,0" transform="translate(0.001 0.001)" fill="url(#linear-gradient)"/>
+  <path id="Path_12230" data-name="Path 12230" d="M308.855,11.608h-3.009v4.205a10.783,10.783,0,0,0-2.352-.387c-.193-.01-.389-.015-.581-.015a10.758,10.758,0,0,0-2.91.4v-4.2h-3.015l1.963-3.841,1-1.963.049-.1L302.921,0l1.463,2.861,1.462,2.86.011.021.031.061Zm0,0" transform="translate(-276.737 0.001)" fill="url(#linear-gradient)"/>
+  <path id="Path_12231" data-name="Path 12231" d="M265.188,256.011a8.728,8.728,0,1,0,8.252,9.179A8.728,8.728,0,0,0,265.188,256.011ZM266.54,269.4h-.788v1.372h-2.046V269.4h-2.62v-2.046h5.453a.8.8,0,1,0,0-1.6h-3.63a2.846,2.846,0,1,1,0-5.692h.8V258.68h2.046v1.377h2.611V262.1H262.91a.8.8,0,1,0,0,1.6h3.63a2.846,2.846,0,0,1,0,5.692Zm0,0" transform="translate(-238.54 -238.542)" fill="url(#linear-gradient)"/>
+</svg>

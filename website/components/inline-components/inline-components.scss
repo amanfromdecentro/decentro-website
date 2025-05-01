@@ -1,0 +1,362 @@
+@import "../../utilities/_variables.scss";
+
+.inline-image-and-paragraph {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 85px;
+  width: 100% !important;
+  .left-container {
+    width: 55%;
+    .commonly-asked-questions {
+      align-items: flex-start;
+      padding: 0;
+      h2 {
+        margin-top: 0 !important;
+        font-size: $product-sections-header-font-size-desktop;
+        line-height: $product-sections-header-line-height-desktop;
+        color: #3c3c3c;
+        font-weight: 400;
+        span {
+          font-weight: 600;
+        }
+      }
+      .accordion-list {
+        padding-left: 0 !important;
+        display: flex;
+        flex-flow: column;
+        gap: 10px;
+        .accordion-section {
+          padding: 35px;
+          margin-top: 0px;
+          .accordion {
+            h2.accordion-title {
+              margin: 0;
+              font-size: $product-sections-subheader-font-size-desktop;
+              line-height: $product-sections-subheader-line-height-desktop;
+              color: #096ef2;
+            }
+          }
+          .accordion-content {
+            .accordion-text {
+              font-size: $product-pages-body-text-font-size-desktop;
+              line-height: $product-pages-body-text-line-height-desktop;
+              align-items: flex-start;
+              margin-top: 20px;
+              color: #3c3c3c;
+            }
+          }
+        }
+      }
+      h2 {
+        margin: 30px 0;
+      }
+    }
+  }
+  .right-container {
+    width: 45%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    .redirect-documentation {
+      margin-top: 30px;
+      width: 70%;
+      border: 2px solid #096ef2;
+      border-radius: 20px;
+      padding: 30px 35px;
+      a {
+        color: #096ef2;
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        // padding: 10px 20px;
+        font-size: $product-sections-subheader-font-size-desktop;
+        font-weight: 600;
+        line-height: $product-pages-body-text-line-height-desktop;
+        margin-left: auto;
+        gap: 30px;
+        box-sizing: border-box;
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+    .ticket-support-container {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      background: #f2f9ff 0% 0% no-repeat padding-box;
+      border-radius: 20px;
+      width: 70%;
+      padding: 35px;
+      margin-top: 60px;
+      .ticket-support-links {
+        width: 100%;
+        border-bottom: 1px solid #a5cbfa;
+        .item-link {
+          margin-bottom: 40px;
+          display: flex;
+          gap: 20px;
+          align-items: center;
+          justify-content: space-between;
+          img {
+            width: 20px;
+            height: 20px;
+          }
+        }
+        a {
+          font-size: $product-sections-subheader-font-size-desktop;
+          line-height: $product-sections-subheader-line-height-desktop;
+          color: #096ef2;
+          font-weight: 600;
+          cursor: pointer;
+        }
+      }
+      .connect-with-decentro {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        p {
+          font-weight: 600;
+          font-size: $product-sections-subheader-font-size-desktop;
+          line-height: $product-sections-subheader-line-height-desktop;
+          // margin-bottom: 10px;
+          .blue-bold {
+            color: #096ef2;
+            cursor: pointer;
+          }
+        }
+        p.email {
+          // margin-top: 20px;
+        }
+        p.email,
+        p.number,
+        p.mobile-number {
+          font-size: $product-pages-body-text-font-size-desktop;
+          line-height: $product-pages-body-text-line-height-desktop;
+        }
+        p.number {
+          font-weight: 400;
+        }
+      }
+      .connect-with-decentro > :nth-child(1) {
+        margin-bottom: 20px; /* Gap between first and second */
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .inline-image-and-paragraph {
+    .right-container {
+      .redirect-documentation {
+        a {
+          // padding: 20px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .inline-image-and-paragraph {
+    padding: 50px;
+    .left-container {
+      .commonly-asked-questions {
+        h2 {
+        }
+        .accordion-list {
+          .accordion-section {
+            .accordion {
+              h2.accordion-title {
+              }
+            }
+            .accordion-content {
+              .accordion-text {
+              }
+            }
+          }
+        }
+      }
+    }
+    .right-container {
+      .redirect-documentation {
+        a {
+          width: 100%;
+        }
+      }
+      .ticket-support-container {
+        padding: 45px;
+        margin-right: 0;
+        width: 100%;
+        box-sizing: border-box;
+        .ticket-support-links {
+          width: 100%;
+          border-bottom: 1px solid #a5cbfa;
+          a {
+          }
+        }
+        .connect-with-decentro {
+          p {
+          }
+        }
+      }
+      .redirect-documentation {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .inline-image-and-paragraph {
+    padding: 30px;
+    flex-flow: column-reverse;
+    align-items: center;
+    .left-container {
+      width: 100%;
+      margin-top: 30px;
+      .commonly-asked-questions {
+        padding-right: 0;
+        .accordion-list {
+          padding-top: 0;
+          .accordion-section {
+            .accordion {
+              h2.accordion-title {
+              }
+            }
+            .accordion-content {
+              .accordion-text {
+              }
+            }
+          }
+        }
+      }
+    }
+    .right-container {
+      width: 100%;
+      .redirect-documentation {
+        a {
+          // width: 60%;
+          margin-left: 0;
+        }
+      }
+      .ticket-support-container {
+        width: 100%;
+        box-sizing: border-box;
+        .ticket-support-links {
+          .item-link {
+            margin-bottom: 30px;
+          }
+          a {
+          }
+        }
+        .connect-with-decentro {
+          margin-top: 30px;
+          p {
+          }
+        }
+      }
+      .redirect-documentation {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .inline-image-and-paragraph {
+    .left-container {
+      width: 100%;
+      margin-top: 50px;
+      .commonly-asked-questions {
+        align-items: flex-start;
+        padding: 0;
+        padding-right: 0;
+        .accordion-list {
+          padding: 0 !important;
+          .accordion-section {
+            .accordion {
+              h2.accordion-title {
+              }
+            }
+            .accordion-content {
+              .accordion-text {
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .right-container {
+      .redirect-documentation {
+        a {
+          width: 100%;
+        }
+      }
+      .ticket-support-container {
+        padding: 30px;
+        .ticket-support-links {
+          .item-link {
+            margin-bottom: 20px;
+          }
+          a {
+          }
+        }
+        .connect-with-decentro {
+          margin-top: 20px;
+          width: 100%;
+          p {
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .inline-image-and-paragraph {
+    .right-container {
+      .redirect-documentation {
+        a {
+          width: 100%;
+          font-size: 18px;
+          line-height: 24px;
+          // padding: 22px;
+          border-radius: 22px;
+          img {
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .inline-image-and-paragraph {
+    .right-container {
+      .ticket-support-container {
+        .ticket-support-links {
+          a {
+          }
+        }
+        .connect-with-decentro {
+          p {
+          }
+        }
+      }
+    }
+  }
+}

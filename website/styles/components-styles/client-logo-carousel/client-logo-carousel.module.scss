@@ -1,0 +1,152 @@
+@import "../../../utilities/variables";
+
+@mixin white-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+$animationSpeed: 30s;
+
+// Animation
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-228px * 20));
+  }
+}
+
+.banner-client-section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 40px;
+  padding: 50px 65px;
+
+  h2.banner-client-partners-page-heading {
+    font-size: $product-sections-header-font-size-desktop;
+    line-height: $product-sections-header-line-height-desktop;
+    font-weight: 400;
+    color: #0a192c;
+
+    span {
+      font-weight: 600;
+    }
+  }
+  p.banner-client-tagline {
+    font-size: $product-sections-subheader-font-size-desktop;
+    line-height: $product-sections-subheader-line-height-desktop;
+    color: #0a192c;
+    text-align: center;
+    width: 80%;
+    margin-top: 0;
+
+    .highlight {
+      font-weight: 600;
+    }
+  }
+}
+
+.slider-wrapper {
+  width: 100vw;
+
+  .slider-heading {
+    font-size: 36px;
+    font-weight: 300;
+    color: #66ceac;
+    text-align: center;
+    margin-bottom: 1rem;
+
+    span {
+      font-weight: 600;
+    }
+
+    span.bold-text {
+      font-weight: 600;
+      color: #096ef2;
+    }
+  }
+}
+
+// Styling
+.slider {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite;
+    display: flex;
+    width: 90vw;
+  }
+
+  .slide {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 140px;
+      padding: 3rem;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .slider-wrapper {
+    .slider-heading {
+      color: #66ceac;
+      text-align: center;
+      margin-bottom: 1rem;
+
+      span {
+        font-weight: 600;
+      }
+
+      span.bold-text {
+        font-weight: 600;
+        color: #096ef2;
+      }
+    }
+  }
+  .banner-client-section {
+    p.banner-client-tagline {
+      margin-top: 70px;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .slider-wrapper {
+    margin-bottom: 20px;
+    width: 90vw;
+
+    .slider-heading {
+      font-size: 28px;
+    }
+  }
+  .banner-client-section {
+    padding: 50px 30px;
+    p.banner-client-tagline {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width: 710px) {
+  $animationSpeed: 60s;
+  .slide-track {
+    animation: scroll $animationSpeed linear infinite !important;
+  }
+  .banner-client-section {
+    p.banner-client-tagline {
+      text-align: center;
+    }
+  }
+}

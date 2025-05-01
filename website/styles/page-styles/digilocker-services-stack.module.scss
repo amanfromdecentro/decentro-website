@@ -1,0 +1,194 @@
+@import "../../utilities/_variables.scss";
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 50px 100px;
+  position: relative;
+
+  .title {
+    font-size: $product-sections-header-font-size-desktop;
+    line-height: $product-sections-header-line-height-desktop;
+    font-weight: 400;
+    color: #096ef2;
+    span {
+      font-weight: 600;
+    }
+  }
+}
+
+.content {
+  background: #f4f9ff 0% 0% no-repeat padding-box;
+  border-radius: 40px;
+  padding: 50px;
+  margin-top: 40px;
+}
+
+.ssoSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.ssoInfo,
+.ssoFunctionalities {
+  width: 48%;
+}
+
+.ssoInfo {
+  h3 {
+    font-size: $product-sections-subheader-font-size-desktop;
+    line-height: 28px;
+    font-weight: 600;
+    color: #0a192c;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0a192c;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  p {
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: $product-pages-body-text-line-height-desktop;
+  }
+}
+
+.ssoFunctionalities {
+  h3 {
+    font-size: $product-sections-subheader-font-size-desktop;
+    line-height: 28px;
+    font-weight: 600;
+    color: #0a192c;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0a192c;
+    font-weight: 500;
+    margin-top: 5px;
+  }
+
+  p {
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: $product-pages-body-text-line-height-desktop;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: $product-pages-body-text-line-height-desktop;
+
+    input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 20px;
+      height: 20px;
+      border: none;
+      border-radius: 4px;
+      outline: none;
+      margin-right: 10px;
+      position: relative;
+      cursor: pointer;
+      background: linear-gradient(90deg, #096ef2 0%, #0092ff 100%);
+      flex-shrink: 0;
+
+      &:checked {
+        &::before {
+          content: "\2714";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          font-size: 14px;
+          color: white;
+          line-height: 1;
+        }
+      }
+    }
+
+    span {
+      flex: 1;
+    }
+  }
+}
+
+.flowChartImage {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.flowChartImg {
+  max-width: 100%;
+  height: auto;
+}
+
+.separator {
+  border-top: 1px dashed #ccc;
+  margin: 4rem 0;
+}
+
+.enhancedFlows {
+  margin-bottom: 2rem;
+
+  h3 {
+    font-size: $product-sections-subheader-font-size-desktop;
+    line-height: 28px;
+    font-weight: 600;
+    color: #0a192c;
+    text-align: center;
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #0a192c;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: $product-pages-body-text-line-height-desktop;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .container {
+    padding: 50px 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .container {
+    padding: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ssoSection {
+    flex-direction: column;
+  }
+
+  .ssoInfo,
+  .ssoFunctionalities {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}

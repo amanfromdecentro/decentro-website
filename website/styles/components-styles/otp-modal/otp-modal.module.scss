@@ -1,0 +1,304 @@
+@import "../../../utilities/_variables.scss";
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+  z-index: 2;
+  width: max-content;
+  height: max-content;
+  padding: 1rem 1.5rem;
+  background: white;
+  border-radius: 10px;
+  position: relative;
+  animation: animate 0.3s;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: -28px;
+  right: -28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f9ff 0% 0% no-repeat padding-box;
+  color: white;
+  padding: 4px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+
+  cursor: pointer;
+
+  svg {
+    width: 22px;
+    height: 22px;
+    color: #0092ff;
+  }
+}
+
+@keyframes animate {
+  from {
+    transform: scale(0.5);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+// modal heading styles
+.edit-callback-heading {
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #43425d;
+  }
+}
+
+.edit-callback-subtitle {
+  text-align: left;
+  font: normal normal normal 13px/16px Montserrat;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #808495;
+}
+
+// input fields
+.enter-otp-field {
+  margin-top: 1rem;
+  width: 32rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  // common(default) input callback field .
+  .text-input-wrapper {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    .text-input-label {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #43425d;
+      user-select: none;
+      position: relative;
+
+      &::after {
+        content: "*";
+        color: red;
+        position: absolute;
+        top: 0;
+        right: -8px;
+      }
+    }
+  }
+
+  .add-otp-input {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #cbcbcb;
+
+    .otp-field-input {
+      background-color: transparent;
+      outline: none;
+      border: 0;
+      font-size: 14px;
+      padding: 8px 18px;
+      width: 100%;
+      font: normal normal 400 14px/24px Montserrat;
+      user-select: none;
+      color: #000000;
+
+      &::placeholder {
+        font-weight: normal;
+        color: #9f9f9f;
+      }
+
+      &:focus {
+        outline: none;
+      }
+
+      &.callback-default-filled {
+        user-select: none;
+        cursor: not-allowed;
+      }
+    }
+  }
+
+  .add-otp-input input {
+    box-sizing: border-box;
+  }
+
+  .error-border {
+    border: 1px solid red;
+  }
+
+  .invalid-otp-error,
+  .otp-sent-subtext {
+    margin-top: 10px;
+    color: #de6767;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+  }
+
+  .otp-sent-subtext {
+    color: #989898;
+  }
+}
+
+// http dropdown
+.dropdown-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+
+  .http-input-label {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #43425d;
+    user-select: none;
+    position: relative;
+
+    &::after {
+      content: "*";
+      color: red;
+      position: absolute;
+      top: 0;
+      right: -8px;
+    }
+  }
+}
+
+// update Btn
+.edit-button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  gap: 10px;
+
+  .button-decentro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: -webkit-max-content;
+    width: max-content;
+    margin-top: 50px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 100px;
+    color: #fff;
+    border: none;
+    background: transparent linear-gradient(90deg, #096ef2 0%, #0092ff 100%) 0%
+      0% no-repeat padding-box;
+  }
+
+  .cancel-otp-button {
+    background: #fff;
+    border: 1px solid #096ef2;
+    color: #096ef2;
+  }
+
+  .disabled-button {
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    border-radius: 100px;
+    color: #d1d1d1;
+    cursor: not-allowed;
+  }
+
+  .active-update-btn {
+    opacity: 1;
+  }
+}
+
+.modal {
+  .cancel-warning-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    p {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 10px;
+    }
+
+    .post-cancel-click-decision {
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      margin: 10px;
+    }
+
+    .post-cancel-click-btn {
+      font-size: 12px;
+      font-weight: 500;
+      color: #096ef2;
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 616px) {
+  .container {
+    .modal {
+      width: 435px;
+
+      .enter-otp-field {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 556px) {
+  .container {
+    .modal {
+      max-width: auto;
+      width: 385px;
+    }
+  }
+}
+
+@media screen and (max-width: 465px) {
+  .container {
+    .modal {
+      max-width: auto;
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .container {
+    .modal {
+      width: auto;
+    }
+  }
+}

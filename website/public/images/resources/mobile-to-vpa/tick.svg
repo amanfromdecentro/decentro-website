@@ -1,0 +1,14 @@
+<svg id="tick" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15.249" height="15.249" viewBox="0 0 15.249 15.249">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.788" x2="0.213" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#096ef2"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_29033" data-name="Group 29033">
+    <g id="Group_29032" data-name="Group 29032">
+      <path id="Path_68547" data-name="Path 68547" d="M7.624,0a7.624,7.624,0,1,0,7.624,7.624A7.62,7.62,0,0,0,7.624,0Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <path id="Union_8" data-name="Union 8" d="M2.7,6.259.237,3.791A.806.806,0,0,1,.807,2.415a.794.794,0,0,1,.57.238l1.9,1.9L7.587.237a.8.8,0,0,1,1.141,0A.789.789,0,0,1,8.966.8a.8.8,0,0,1-.237.575L3.845,6.26a.8.8,0,0,1-1.141,0Z" transform="translate(3.141 4.377)" fill="#fff"/>
+</svg>

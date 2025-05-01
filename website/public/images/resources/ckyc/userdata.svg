@@ -1,0 +1,17 @@
+<svg id="UserData" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9740" data-name="Rectangle 9740" width="38" height="30.816" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_37126" data-name="Group 37126" transform="translate(0 4)">
+    <g id="Group_37125" data-name="Group 37125" clip-path="url(#clip-path)">
+      <path id="Path_80114" data-name="Path 80114" d="M38,7.212V27.438a2.161,2.161,0,0,0-.067.21A3.836,3.836,0,0,1,34.1,30.81q-15.1.009-30.2,0A3.847,3.847,0,0,1,0,26.825Q0,15.4,0,3.974A3.85,3.85,0,0,1,3.918,0Q9.408-.01,14.9.012A.8.8,0,0,1,15.4.229q1.656,1.644,3.28,3.321a.935.935,0,0,0,.744.31c4.847-.009,9.694,0,14.541-.009a3.7,3.7,0,0,1,3.261,1.6A9.941,9.941,0,0,1,38,7.212m-5.706,17.8c0-.467.02-.893-.005-1.317a4.746,4.746,0,0,0-.161-1.288,3.153,3.153,0,0,0-1.716-1.683A11.831,11.831,0,0,0,22.55,19.5a11,11,0,0,0-4.068,1.535,2.532,2.532,0,0,0-1.295,1.618,16.67,16.67,0,0,0-.025,2.364ZM28.5,13.5a3.8,3.8,0,1,0-3.783,3.837A3.879,3.879,0,0,0,28.5,13.5" transform="translate(0 0.001)" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <rect id="Rectangle_9741" data-name="Rectangle 9741" width="38" height="38" fill="none"/>
+</svg>

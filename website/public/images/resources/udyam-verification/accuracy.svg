@@ -1,0 +1,15 @@
+<svg id="Accuracy" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="55" viewBox="0 0 55 55">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_12367" data-name="Rectangle 12367" width="55" height="55" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_12368" data-name="Rectangle 12368" width="55" height="55" transform="translate(0 0)" fill="none"/>
+  <g id="Group_41467" data-name="Group 41467" transform="translate(0 0)">
+    <g id="Group_41466" data-name="Group 41466" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_88932" data-name="Path 88932" d="M55,27.556A27.5,27.5,0,1,1,27.556,0,27.484,27.484,0,0,1,55,27.556M27.48,49.506A22.007,22.007,0,1,0,5.492,27.463,22.052,22.052,0,0,0,27.48,49.506" transform="translate(0 0)" fill="#fff"/>
+      <path id="Path_88933" data-name="Path 88933" d="M30.714,14.2A16.508,16.508,0,1,1,14.2,30.711,16.552,16.552,0,0,1,30.714,14.2M41.7,30.707A10.992,10.992,0,1,0,30.7,41.7,10.965,10.965,0,0,0,41.7,30.707" transform="translate(-3.204 -3.207)" fill="#fff"/>
+      <path id="Path_88934" data-name="Path 88934" d="M39.416,33.9A5.5,5.5,0,1,1,33.9,28.414,5.53,5.53,0,0,1,39.416,33.9" transform="translate(-6.411 -6.419)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

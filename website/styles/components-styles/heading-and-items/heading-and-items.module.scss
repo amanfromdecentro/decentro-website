@@ -1,0 +1,127 @@
+@import "../../../utilities/_variables.scss";
+
+.heading-and-descriptive-image {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 100px;
+  background-color: #fafafa;
+
+  .wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+    h2 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #0a192c;
+      text-align: center;
+      span {
+        font-weight: 600;
+      }
+    }
+    p.tagline {
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: $product-pages-body-text-line-height-desktop;
+      font-weight: 400;
+      color: #68727d;
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    .subheading {
+      color: #68727d;
+      text-align: center;
+    }
+
+    .image-container {
+      margin-top: 80px;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 100%;
+      }
+    }
+
+    .methodology-steps {
+      display: flex;
+      gap: 40px;
+      .item {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        .item-image-title-container {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          gap: 20px;
+          .item-image {
+            width: 70px;
+            height: 70px;
+            padding: 15px;
+            background: #d7e8ff;
+            border-radius: 50%;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+
+            img {
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .item-title {
+            font-size: 1.375rem;
+            line-height: 28px;
+            font-weight: 600;
+            color: #0a192c;
+            text-align: center;
+            // margin-left: 20px;
+            width: 100%;
+          }
+        }
+        .item-description {
+          text-align: left;
+          // margin-top: 20px;
+          font-size: 1rem;
+          line-height: 24px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .heading-and-descriptive-image {
+    padding: 50px 30px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .heading-and-descriptive-image {
+    padding: 30px;
+    .wrapper {
+      h2 {
+        text-align: left;
+        width: 100%;
+      }
+      p {
+        text-align: left;
+        width: 100%;
+      }
+      .methodology-steps {
+        flex-wrap: wrap;
+      }
+    }
+  }
+}

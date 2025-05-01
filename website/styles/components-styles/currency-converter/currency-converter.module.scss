@@ -1,0 +1,304 @@
+.converter * {
+  font-family: "Montserrat", sans-serif;
+}
+.converter {
+  font-family: "Montserrat", sans-serif;
+  max-width: 550px;
+  margin: 0 auto;
+  // padding: 16px;
+  box-shadow: 0px 20px 40px #096ef21a;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+
+  // outline: 1px solid red;
+  hr {
+    position: absolute;
+    top: 26%;
+    border: 1px dashed #096ef2;
+    // border-style: dotted;
+    height: 110px;
+    // transform: rotate(90deg);
+  }
+}
+
+.converter-card {
+  background: #ffffff;
+  // border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  // box-shadow: 0px 20px 40px #096ef21a;
+}
+
+.converter-input-wrapper {
+  // background: #f8f8f8;
+  border-radius: 12px;
+  // padding: 16px;
+  border: 2px solid #000000;
+}
+
+.converter-input-container {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+}
+
+.converter-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #666666;
+  span {
+    font-size: 10px;
+    color: #000000;
+  }
+}
+
+.converter-input-row {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: space-between;
+}
+
+.converter-amount-input {
+  border: none;
+  font-size: 32px;
+  font-weight: 600;
+  width: 60%;
+  outline: none;
+}
+
+.converter-currency-selector {
+  position: relative;
+}
+
+.converter-currency-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  // padding: 8px 16px;
+  background: transparent;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: 2px solid #dad9d9;
+}
+
+.converter-currency-button:hover {
+  background: #f8f8f8;
+}
+
+.converter-currency-output-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  // padding: 8px 16px;
+  background: #ffffff;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: 2px solid #e3f0ff;
+}
+
+.converter-currency-output-button:disabled {
+  cursor: not-allowed;
+}
+
+.from-currency,
+.to-currency {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.converter-currency-flag {
+  width: 28px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.converter-dropdown-icon {
+  // margin-left: 4px;
+}
+
+.converter-dropdown {
+  position: absolute;
+  top: 100%;
+  // right: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  // margin-top: 4px;
+  padding: 8px 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  // min-width: 160px;
+}
+
+.converter-dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  text-align: left;
+  img {
+    width: 30px;
+  }
+}
+
+.converter-dropdown-item:hover {
+  background: #f8f8f8;
+}
+
+.converter-rate {
+  // margin: 24px 0;
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 12px 24px;
+  text-align: center;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 2;
+}
+
+.converter-rate-text {
+  font-size: 16px;
+  // margin-bottom: 4px;
+  font-weight: 600;
+}
+
+.converter-rate-value {
+  font-size: 16px;
+  font-weight: 700;
+  // margin-left: 4px;
+}
+
+.converter-rate-update {
+  font-size: 8px;
+  color: #68717d;
+  span {
+    color: #096ef2;
+    font-weight: 600;
+  }
+}
+
+.converter-logo-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.converter-logo {
+  position: absolute;
+  top: -12px;
+  background: white;
+  padding: 4px 24px;
+  border-radius: 16px;
+  font-weight: 600;
+}
+
+.converter-output-wrapper {
+  // background: #f8f8f8;
+  border-radius: 12px;
+  // padding: 16px;
+  width: 100%;
+  position: relative;
+  .decentro-fx {
+    // border: 1px solid red;
+    position: absolute;
+    width: 80px;
+    right: 50%;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.converter-output-container {
+  background: #f4f9ff;
+  border-radius: 12px;
+  padding: 16px;
+  border: 2px solid #2563eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.converter-output-row {
+  display: flex;
+  flex-direction: column;
+  // align-items: center;
+  justify-content: space-between;
+}
+
+.converter-amount-output {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.converter-comparison {
+  display: flex;
+  justify-content: space-around;
+  // margin-top: 16px;
+  padding: 0 8px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.converter-comparison-item {
+  // flex: 1;
+  // border: 1px solid red;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.converter-comparison-left {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.converter-comparison-title {
+  color: #68727d;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.converter-comparison-rate {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #0a192c;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.converter-comparison-loss {
+  font-size: 10px;
+  margin-bottom: 3px;
+  span {
+    color: #ef4444;
+  }
+}

@@ -1,0 +1,36 @@
+<svg id="AUD" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="33" viewBox="0 0 50 33">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_13017" data-name="Rectangle 13017" width="50" height="33" rx="5" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_13015" data-name="Rectangle 13015" width="25" height="17" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_42450" data-name="Mask Group 42450" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="Group_42740" data-name="Group 42740">
+      <path id="Path_90534" data-name="Path 90534" d="M66.373,6H16.5V39.174H66.373Z" transform="translate(-16.5 -5.963)" fill="#012169"/>
+      <path id="Path_90535" data-name="Path 90535" d="M46.78,91.832l.81,2.519,2.475-.937-1.464,2.2,2.276,1.35L48.24,97.2l.363,2.621L46.78,97.9l-1.823,1.918L45.32,97.2l-2.636-.229,2.276-1.35-1.464-2.2,2.475.937Z" transform="translate(-36.774 -72.424)" fill="#fff"/>
+      <path id="Path_90536" data-name="Path 90536" d="M178.263,111.927l.386,1.2,1.178-.446-.7,1.05,1.084.643-1.255.109.173,1.248-.868-.913-.868.913.173-1.248-1.255-.109,1.084-.643-.7-1.05,1.178.446Z" transform="translate(-140.247 -87.984)" fill="#fff"/>
+      <path id="Path_90537" data-name="Path 90537" d="M147.232,62.8l.386,1.2,1.178-.446-.7,1.05,1.084.643-1.255.109L148.1,66.6l-.868-.913-.868.913.173-1.248-1.255-.109,1.084-.643-.7-1.05,1.178.446Z" transform="translate(-116.219 -49.942)" fill="#fff"/>
+      <path id="Path_90538" data-name="Path 90538" d="M178.263,29.181l.386,1.2,1.178-.446-.7,1.05,1.084.643-1.255.109.173,1.248-.868-.913-.868.913.173-1.248-1.255-.109,1.084-.643-.7-1.05,1.178.446Z" transform="translate(-140.247 -23.913)" fill="#fff"/>
+      <path id="Path_90539" data-name="Path 90539" d="M205.845,54.521l.386,1.2,1.178-.446-.7,1.05,1.084.643-1.255.109.173,1.248-.868-.913-.868.913.173-1.248-1.255-.109,1.083-.643-.7-1.05,1.178.446Z" transform="translate(-161.605 -43.535)" fill="#fff"/>
+      <path id="Path_90540" data-name="Path 90540" d="M193.559,79.42l.3.747.8.059-.617.521.193.784-.686-.425-.686.425.193-.784-.617-.521.805-.059Z" transform="translate(-152.742 -62.814)" fill="#fff"/>
+      <g id="Mask_Group_42449" data-name="Mask Group 42449" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <g id="Group_42738" data-name="Group 42738" transform="translate(-0.919 -1.344)">
+          <path id="Path_90541" data-name="Path 90541" d="M16.5,6,41.437,22.587ZM41.437,6,16.5,22.587Z" transform="translate(-15.581 -4.619)" fill="#000008"/>
+          <path id="Path_90542" data-name="Path 90542" d="M22.822,9.554,12.43,2.642,14.267-.12l11.55,7.682L37.366-.12,39.2,1.326V2.642L28.812,9.554,39.2,16.467v2.762H37.366l-11.55-7.682-11.55,7.682L12.43,16.467Z" transform="translate(-12.43 0.12)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+        <g id="Group_42739" data-name="Group 42739" transform="translate(-0.613 -0.884)">
+          <path id="Path_90543" data-name="Path 90543" d="M24.869,11.134,13.785,3.761l.427-.667,12.653,8.373.376-1.821L38.722,1.92l.435.594L28.863,9.474l.821,2.153L40.254,18.6V19.5L27.619,11.134l-.753,1.328L15.01,20.348l-1.2-.114,10.65-7.081Z" transform="translate(-13.785 -1.92)" fill="#e4002b" fill-rule="evenodd"/>
+          <path id="Path_90544" data-name="Path 90544" d="M16.5,6,41.437,22.587ZM41.437,6,16.5,22.587Z" transform="translate(-15.887 -5.079)" fill="#e4002b"/>
+        </g>
+        <path id="Path_90545" data-name="Path 90545" d="M28.968,6V6ZM16.5,14.293h0Z" transform="translate(-16.5 -5.963)" fill="#000008"/>
+        <path id="Path_90546" data-name="Path 90546" d="M26.2,11.529V6h5.529v5.529h9.7v5.529h-9.7v5.529H26.2V17.058H16.5V11.529Z" transform="translate(-16.5 -5.963)" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_90547" data-name="Path 90547" d="M28.968,6V6ZM16.5,14.293h0Z" transform="translate(-16.5 -5.963)" fill="#e4002b"/>
+        <path id="Path_90548" data-name="Path 90548" d="M27.31,12.635V6h3.317v6.635h10.81v3.317H30.627v6.635H27.31V15.952H16.5V12.635Z" transform="translate(-16.5 -5.963)" fill="#e4002b" fill-rule="evenodd"/>
+      </g>
+      <rect id="Rectangle_13016" data-name="Rectangle 13016" width="50" height="33" transform="translate(0 -0.002)" fill="none"/>
+    </g>
+  </g>
+</svg>

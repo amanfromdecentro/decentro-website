@@ -1,0 +1,218 @@
+<svg id="NZD" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="33" viewBox="0 0 50 33">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_13017" data-name="Rectangle 13017" width="50" height="33" rx="5" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_13015" data-name="Rectangle 13015" width="25" height="17" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_42450" data-name="Mask Group 42450" clip-path="url(#clip-path)">
+    <g id="Group_42740" data-name="Group 42740">
+      <path id="Path_90534" data-name="Path 90534" d="M66.373,6H16.5V39.174H66.373Z" transform="translate(-16.5 -5.963)" fill="#012169"/>
+      <g id="Mask_Group_42449" data-name="Mask Group 42449" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <g id="Group_42738" data-name="Group 42738" transform="translate(-0.919 -1.344)">
+          <path id="Path_90541" data-name="Path 90541" d="M16.5,6,41.437,22.587ZM41.437,6,16.5,22.587Z" transform="translate(-15.581 -4.619)" fill="#000008"/>
+          <path id="Path_90542" data-name="Path 90542" d="M22.822,9.554,12.43,2.642,14.267-.12l11.55,7.682L37.366-.12,39.2,1.326V2.642L28.812,9.554,39.2,16.467v2.762H37.366l-11.55-7.682-11.55,7.682L12.43,16.467Z" transform="translate(-12.43 0.12)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+        <g id="Group_42739" data-name="Group 42739" transform="translate(-0.613 -0.884)">
+          <path id="Path_90543" data-name="Path 90543" d="M24.869,11.134,13.785,3.761l.427-.667,12.653,8.373.376-1.821L38.722,1.92l.435.594L28.863,9.474l.821,2.153L40.254,18.6V19.5L27.619,11.134l-.753,1.328L15.01,20.348l-1.2-.114,10.65-7.081Z" transform="translate(-13.785 -1.92)" fill="#e4002b" fill-rule="evenodd"/>
+          <path id="Path_90544" data-name="Path 90544" d="M16.5,6,41.437,22.587ZM41.437,6,16.5,22.587Z" transform="translate(-15.887 -5.079)" fill="#e4002b"/>
+        </g>
+        <path id="Path_90545" data-name="Path 90545" d="M28.968,6V6ZM16.5,14.293h0Z" transform="translate(-16.5 -5.963)" fill="#000008"/>
+        <path id="Path_90546" data-name="Path 90546" d="M26.2,11.529V6h5.529v5.529h9.7v5.529h-9.7v5.529H26.2V17.058H16.5V11.529Z" transform="translate(-16.5 -5.963)" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path_90547" data-name="Path 90547" d="M28.968,6V6ZM16.5,14.293h0Z" transform="translate(-16.5 -5.963)" fill="#e4002b"/>
+        <path id="Path_90548" data-name="Path 90548" d="M27.31,12.635V6h3.317v6.635h10.81v3.317H30.627v6.635H27.31V15.952H16.5V12.635Z" transform="translate(-16.5 -5.963)" fill="#e4002b" fill-rule="evenodd"/>
+      </g>
+      <rect id="Rectangle_13016" data-name="Rectangle 13016" width="50" height="33" transform="translate(0 0)" fill="none"/>
+      <g id="Southern_Cross" transform="translate(28.427 5.064)">
+        <g id="Gamma_Crucis" transform="translate(7.573 0)">
+          <g id="Group_42756" data-name="Group 42756" transform="translate(0)">
+            <g id="Arm" transform="translate(2.029 1.008)">
+              <path id="Path_90617" data-name="Path 90617" d="M0,0V1.127L2.255,0Z" transform="translate(0.232 0.912)" fill="#fff"/>
+              <path id="Path_90618" data-name="Path 90618" d="M0,1.127V0L2.255,1.127Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.325)" fill="#fff"/>
+            </g>
+            <g id="Group_42752" data-name="Group 42752" transform="translate(2.493 3.246) rotate(180)">
+              <path id="Path_90619" data-name="Path 90619" d="M0,1.127V0L2.255,1.127Z" transform="translate(0.232 0.198)" fill="#fff"/>
+              <path id="Path_90620" data-name="Path 90620" d="M0,0V1.127L2.255,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.663, 0)" fill="#fff"/>
+            </g>
+            <g id="Group_42753" data-name="Group 42753" transform="translate(3.754 1.924) rotate(72)">
+              <path id="Path_90621" data-name="Path 90621" d="M0,0V1.127L2.255,0Z" transform="translate(0.232 0.912)" fill="#fff"/>
+              <path id="Path_90622" data-name="Path 90622" d="M0,1.128V0L2.255,1.128Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.325)" fill="#fff"/>
+            </g>
+            <g id="Group_42754" data-name="Group 42754" transform="translate(0.625 2.365) rotate(-72)">
+              <path id="Path_90623" data-name="Path 90623" d="M0,0V1.127L2.255,0Z" transform="translate(0.232 0.912)" fill="#fff"/>
+              <path id="Path_90624" data-name="Path 90624" d="M0,1.128V0L2.255,1.128Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.325)" fill="#fff"/>
+            </g>
+            <g id="Group_42755" data-name="Group 42755" transform="translate(2.897 2.615) rotate(108)">
+              <path id="Path_90625" data-name="Path 90625" d="M0,1.127V0L2.255,1.127Z" transform="translate(0.232 0.198)" fill="#fff"/>
+              <path id="Path_90626" data-name="Path 90626" d="M0,0V1.128L2.255,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.663, 0)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="Group_42761" data-name="Group 42761" transform="translate(0.767 0.9)">
+            <g id="Arm-2" data-name="Arm" transform="translate(1.341 0.666)">
+              <path id="Path_90627" data-name="Path 90627" d="M0,0V.745L1.49,0Z" transform="translate(0.153 0.603)" fill="#c8102e"/>
+              <path id="Path_90628" data-name="Path 90628" d="M0,.745V0L1.49.745Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 0.876)" fill="#c8102e"/>
+            </g>
+            <g id="Group_42757" data-name="Group 42757" transform="translate(1.648 2.145) rotate(180)">
+              <path id="Path_90629" data-name="Path 90629" d="M0,.745V0L1.49.745Z" transform="translate(0.153 0.131)" fill="#c8102e"/>
+              <path id="Path_90630" data-name="Path 90630" d="M0,0V.745L1.49,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.438, 0)" fill="#c8102e"/>
+            </g>
+            <g id="Group_42758" data-name="Group 42758" transform="translate(2.481 1.271) rotate(72)">
+              <path id="Path_90631" data-name="Path 90631" d="M0,0V.745L1.49,0Z" transform="translate(0.153 0.603)" fill="#c8102e"/>
+              <path id="Path_90632" data-name="Path 90632" d="M0,.745V0L1.49.745Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 0.876)" fill="#c8102e"/>
+            </g>
+            <g id="Group_42759" data-name="Group 42759" transform="translate(0.413 1.563) rotate(-72)">
+              <path id="Path_90633" data-name="Path 90633" d="M0,0V.745L1.49,0Z" transform="translate(0.153 0.603)" fill="#c8102e"/>
+              <path id="Path_90634" data-name="Path 90634" d="M0,.745V0L1.49.745Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 0.876)" fill="#c8102e"/>
+            </g>
+            <g id="Group_42760" data-name="Group 42760" transform="translate(1.914 1.728) rotate(108)">
+              <path id="Path_90635" data-name="Path 90635" d="M0,.745V0L1.49.745Z" transform="translate(0.153 0.131)" fill="#c8102e"/>
+              <path id="Path_90636" data-name="Path 90636" d="M0,0V.745L1.49,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.438, 0)" fill="#c8102e"/>
+            </g>
+          </g>
+        </g>
+        <g id="Group_42782" data-name="Group 42782" transform="translate(17.625 4.548) rotate(82)">
+          <g id="Delta_Crucis" transform="translate(0.324 0)">
+            <g id="Group_42766" data-name="Group 42766" transform="translate(0 3.985) rotate(-82)">
+              <g id="Arm-3" data-name="Arm" transform="translate(1.806 0.897)">
+                <path id="Path_90637" data-name="Path 90637" d="M0,0V1L2.007,0Z" transform="translate(0.207 0.812)" fill="#fff"/>
+                <path id="Path_90638" data-name="Path 90638" d="M0,1V0L2.007,1Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.179)" fill="#fff"/>
+              </g>
+              <g id="Group_42762" data-name="Group 42762" transform="translate(2.219 2.888) rotate(180)">
+                <path id="Path_90639" data-name="Path 90639" d="M0,1V0L2.007,1Z" transform="translate(0.207 0.176)" fill="#fff"/>
+                <path id="Path_90640" data-name="Path 90640" d="M0,0V1L2.007,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.59, 0)" fill="#fff"/>
+              </g>
+              <g id="Group_42763" data-name="Group 42763" transform="translate(3.34 1.712) rotate(72)">
+                <path id="Path_90641" data-name="Path 90641" d="M0,0V1L2.007,0Z" transform="translate(0.207 0.812)" fill="#fff"/>
+                <path id="Path_90642" data-name="Path 90642" d="M0,1V0L2.007,1Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.179)" fill="#fff"/>
+              </g>
+              <g id="Group_42764" data-name="Group 42764" transform="translate(0.556 2.105) rotate(-72)">
+                <path id="Path_90643" data-name="Path 90643" d="M0,0V1L2.007,0Z" transform="translate(0.207 0.812)" fill="#fff"/>
+                <path id="Path_90644" data-name="Path 90644" d="M0,1V0L2.007,1Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.179)" fill="#fff"/>
+              </g>
+              <g id="Group_42765" data-name="Group 42765" transform="translate(2.578 2.327) rotate(108)">
+                <path id="Path_90645" data-name="Path 90645" d="M0,1V0L2.007,1Z" transform="translate(0.207 0.176)" fill="#fff"/>
+                <path id="Path_90646" data-name="Path 90646" d="M0,0V1L2.007,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.59, 0)" fill="#fff"/>
+              </g>
+            </g>
+            <g id="Group_42771" data-name="Group 42771" transform="translate(0.998 3.351) rotate(-82)">
+              <g id="Arm-4" data-name="Arm" transform="translate(1.117 0.555)">
+                <path id="Path_90647" data-name="Path 90647" d="M0,0V.621L1.242,0Z" transform="translate(0.128 0.502)" fill="#c8102e"/>
+                <path id="Path_90648" data-name="Path 90648" d="M0,.621V0L1.242.621Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 0.73)" fill="#c8102e"/>
+              </g>
+              <g id="Group_42767" data-name="Group 42767" transform="translate(1.373 1.787) rotate(180)">
+                <path id="Path_90649" data-name="Path 90649" d="M0,.621V0L1.242.621Z" transform="translate(0.128 0.109)" fill="#c8102e"/>
+                <path id="Path_90650" data-name="Path 90650" d="M0,0V.621L1.242,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.365, 0)" fill="#c8102e"/>
+              </g>
+              <g id="Group_42768" data-name="Group 42768" transform="translate(2.067 1.059) rotate(72)">
+                <path id="Path_90651" data-name="Path 90651" d="M0,0V.621L1.242,0Z" transform="translate(0.128 0.502)" fill="#c8102e"/>
+                <path id="Path_90652" data-name="Path 90652" d="M0,.621V0L1.242.621Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 0.73)" fill="#c8102e"/>
+              </g>
+              <g id="Group_42769" data-name="Group 42769" transform="translate(0.344 1.302) rotate(-72)">
+                <path id="Path_90653" data-name="Path 90653" d="M0,0V.621L1.242,0Z" transform="translate(0.128 0.502)" fill="#c8102e"/>
+                <path id="Path_90654" data-name="Path 90654" d="M0,.621V0L1.242.621Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 0.73)" fill="#c8102e"/>
+              </g>
+              <g id="Group_42770" data-name="Group 42770" transform="translate(1.595 1.44) rotate(108)">
+                <path id="Path_90655" data-name="Path 90655" d="M0,.621V0L1.242.621Z" transform="translate(0.128 0.109)" fill="#c8102e"/>
+                <path id="Path_90656" data-name="Path 90656" d="M0,0V.621L1.242,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.365, 0)" fill="#c8102e"/>
+              </g>
+            </g>
+          </g>
+          <g id="Beta_Crucis" transform="translate(0 12.627)">
+            <g id="Group_42776" data-name="Group 42776" transform="translate(0 4.478) rotate(-82)">
+              <g id="Arm-5" data-name="Arm" transform="translate(2.029 1.008)">
+                <path id="Path_90657" data-name="Path 90657" d="M0,0V1.127L2.255,0Z" transform="translate(0.232 0.912)" fill="#fff"/>
+                <path id="Path_90658" data-name="Path 90658" d="M0,1.127V0L2.255,1.127Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.325)" fill="#fff"/>
+              </g>
+              <g id="Group_42772" data-name="Group 42772" transform="translate(2.493 3.246) rotate(180)">
+                <path id="Path_90659" data-name="Path 90659" d="M0,1.127V0L2.255,1.127Z" transform="translate(0.232 0.198)" fill="#fff"/>
+                <path id="Path_90660" data-name="Path 90660" d="M0,0V1.127L2.255,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.663, 0)" fill="#fff"/>
+              </g>
+              <g id="Group_42773" data-name="Group 42773" transform="translate(3.754 1.924) rotate(72)">
+                <path id="Path_90661" data-name="Path 90661" d="M0,0V1.127L2.255,0Z" transform="translate(0.232 0.912)" fill="#fff"/>
+                <path id="Path_90662" data-name="Path 90662" d="M0,1.128V0L2.255,1.128Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.325)" fill="#fff"/>
+              </g>
+              <g id="Group_42774" data-name="Group 42774" transform="translate(0.625 2.365) rotate(-72)">
+                <path id="Path_90663" data-name="Path 90663" d="M0,0V1.127L2.255,0Z" transform="translate(0.232 0.912)" fill="#fff"/>
+                <path id="Path_90664" data-name="Path 90664" d="M0,1.128V0L2.255,1.128Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.325)" fill="#fff"/>
+              </g>
+              <g id="Group_42775" data-name="Group 42775" transform="translate(2.897 2.615) rotate(108)">
+                <path id="Path_90665" data-name="Path 90665" d="M0,1.127V0L2.255,1.127Z" transform="translate(0.232 0.198)" fill="#fff"/>
+                <path id="Path_90666" data-name="Path 90666" d="M0,0V1.128L2.255,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.663, 0)" fill="#fff"/>
+              </g>
+            </g>
+            <g id="Group_42781" data-name="Group 42781" transform="translate(0.998 3.844) rotate(-82)">
+              <g id="Arm-6" data-name="Arm" transform="translate(1.341 0.666)">
+                <path id="Path_90667" data-name="Path 90667" d="M0,0V.745L1.49,0Z" transform="translate(0.153 0.603)" fill="#c8102e"/>
+                <path id="Path_90668" data-name="Path 90668" d="M0,.745V0L1.49.745Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 0.876)" fill="#c8102e"/>
+              </g>
+              <g id="Group_42777" data-name="Group 42777" transform="translate(1.648 2.145) rotate(180)">
+                <path id="Path_90669" data-name="Path 90669" d="M0,.745V0L1.49.745Z" transform="translate(0.153 0.131)" fill="#c8102e"/>
+                <path id="Path_90670" data-name="Path 90670" d="M0,0V.745L1.49,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.438, 0)" fill="#c8102e"/>
+              </g>
+              <g id="Group_42778" data-name="Group 42778" transform="translate(2.481 1.271) rotate(72)">
+                <path id="Path_90671" data-name="Path 90671" d="M0,0V.745L1.49,0Z" transform="translate(0.153 0.603)" fill="#c8102e"/>
+                <path id="Path_90672" data-name="Path 90672" d="M0,.745V0L1.49.745Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 0.876)" fill="#c8102e"/>
+              </g>
+              <g id="Group_42779" data-name="Group 42779" transform="translate(0.413 1.563) rotate(-72)">
+                <path id="Path_90673" data-name="Path 90673" d="M0,0V.745L1.49,0Z" transform="translate(0.153 0.603)" fill="#c8102e"/>
+                <path id="Path_90674" data-name="Path 90674" d="M0,.745V0L1.49.745Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 0.876)" fill="#c8102e"/>
+              </g>
+              <g id="Group_42780" data-name="Group 42780" transform="translate(1.914 1.728) rotate(108)">
+                <path id="Path_90675" data-name="Path 90675" d="M0,.745V0L1.49.745Z" transform="translate(0.153 0.131)" fill="#c8102e"/>
+                <path id="Path_90676" data-name="Path 90676" d="M0,0V.745L1.49,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.438, 0)" fill="#c8102e"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="Alpha_Crucis" transform="translate(7.324 17.589)">
+          <g id="Group_42787" data-name="Group 42787" transform="translate(0 0)">
+            <g id="Arm-7" data-name="Arm" transform="translate(2.253 1.119)">
+              <path id="Path_90677" data-name="Path 90677" d="M0,0V1.252L2.5,0Z" transform="translate(0.258 1.013)" fill="#fff"/>
+              <path id="Path_90678" data-name="Path 90678" d="M0,1.252V0L2.5,1.252Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.471)" fill="#fff"/>
+            </g>
+            <g id="Group_42783" data-name="Group 42783" transform="translate(2.768 3.603) rotate(180)">
+              <path id="Path_90679" data-name="Path 90679" d="M0,1.252V0L2.5,1.252Z" transform="translate(0.258 0.22)" fill="#fff"/>
+              <path id="Path_90680" data-name="Path 90680" d="M0,0V1.252L2.5,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.736, 0)" fill="#fff"/>
+            </g>
+            <g id="Group_42784" data-name="Group 42784" transform="translate(4.167 2.136) rotate(72)">
+              <path id="Path_90681" data-name="Path 90681" d="M0,0V1.252L2.5,0Z" transform="translate(0.258 1.013)" fill="#fff"/>
+              <path id="Path_90682" data-name="Path 90682" d="M0,1.252V0L2.5,1.252Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.471)" fill="#fff"/>
+            </g>
+            <g id="Group_42785" data-name="Group 42785" transform="translate(0.694 2.626) rotate(-72)">
+              <path id="Path_90683" data-name="Path 90683" d="M0,0V1.252L2.5,0Z" transform="translate(0.258 1.013)" fill="#fff"/>
+              <path id="Path_90684" data-name="Path 90684" d="M0,1.252V0L2.5,1.252Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.471)" fill="#fff"/>
+            </g>
+            <g id="Group_42786" data-name="Group 42786" transform="translate(3.216 2.903) rotate(108)">
+              <path id="Path_90685" data-name="Path 90685" d="M0,1.252V0L2.5,1.252Z" transform="translate(0.258 0.22)" fill="#fff"/>
+              <path id="Path_90686" data-name="Path 90686" d="M0,0V1.252L2.5,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.736, 0)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="Group_42792" data-name="Group 42792" transform="translate(0.767 0.9)">
+            <g id="Arm-8" data-name="Arm" transform="translate(1.564 0.777)">
+              <path id="Path_90687" data-name="Path 90687" d="M0,0V.869L1.738,0Z" transform="translate(0.179 0.703)" fill="#c8102e"/>
+              <path id="Path_90688" data-name="Path 90688" d="M0,.869V0L1.738.869Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.022)" fill="#c8102e"/>
+            </g>
+            <g id="Group_42788" data-name="Group 42788" transform="translate(1.922 2.502) rotate(180)">
+              <path id="Path_90689" data-name="Path 90689" d="M0,.869V0L1.738.869Z" transform="translate(0.179 0.153)" fill="#c8102e"/>
+              <path id="Path_90690" data-name="Path 90690" d="M0,0V.869L1.738,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.511, 0)" fill="#c8102e"/>
+            </g>
+            <g id="Group_42789" data-name="Group 42789" transform="translate(2.894 1.483) rotate(72)">
+              <path id="Path_90691" data-name="Path 90691" d="M0,0V.869L1.738,0Z" transform="translate(0.179 0.703)" fill="#c8102e"/>
+              <path id="Path_90692" data-name="Path 90692" d="M0,.869V0L1.738.869Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.022)" fill="#c8102e"/>
+            </g>
+            <g id="Group_42790" data-name="Group 42790" transform="translate(0.482 1.823) rotate(-72)">
+              <path id="Path_90693" data-name="Path 90693" d="M0,0V.869L1.738,0Z" transform="translate(0.179 0.703)" fill="#c8102e"/>
+              <path id="Path_90694" data-name="Path 90694" d="M0,.869V0L1.738.869Z" transform="matrix(0.809, -0.588, 0.588, 0.809, 0, 1.022)" fill="#c8102e"/>
+            </g>
+            <g id="Group_42791" data-name="Group 42791" transform="translate(2.233 2.016) rotate(108)">
+              <path id="Path_90695" data-name="Path 90695" d="M0,.869V0L1.738.869Z" transform="translate(0.179 0.153)" fill="#c8102e"/>
+              <path id="Path_90696" data-name="Path 90696" d="M0,0V.869L1.738,0Z" transform="matrix(0.809, 0.588, -0.588, 0.809, 0.511, 0)" fill="#c8102e"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+export const transactions_processed_annually = 5

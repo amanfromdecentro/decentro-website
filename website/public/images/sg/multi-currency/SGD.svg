@@ -1,0 +1,24 @@
+<svg id="SGD" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="33" viewBox="0 0 50 33">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_13035" data-name="Rectangle 13035" width="50" height="33" rx="5" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_13033" data-name="Rectangle 13033" width="49.929" height="33.211" transform="translate(0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_42456" data-name="Mask Group 42456" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <g id="Group_42795" data-name="Group 42795">
+      <g id="Group_42794" data-name="Group 42794" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_13032" data-name="Rectangle 13032" width="49.929" height="33.211" transform="translate(0)" fill="#fff"/>
+        <g id="Group_42793" data-name="Group 42793" transform="translate(-1.56)">
+          <path id="Path_90697" data-name="Path 90697" d="M5.6,5H61.766V38.211H5.6Z" transform="translate(-5.596 -5)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Path_90698" data-name="Path 90698" d="M5.6,5H61.766V21.606H5.6Z" transform="translate(-5.596 -5)" fill="#df0000" fill-rule="evenodd"/>
+          <path id="Path_90699" data-name="Path 90699" d="M32,17.942a5.208,5.208,0,0,0,.049,10.194,5.3,5.3,0,1,1-2.937-10.181A5.077,5.077,0,0,1,32,17.942Z" transform="translate(-20.825 -14.86)" fill="#fff" fill-rule="evenodd"/>
+          <path id="Path_90700" data-name="Path 90700" d="M45.366,25.275l.3.926-.8-.568-.79.58.29-.938-.79-.574.981-.012.309-.926.309.926h.975Zm1.08,3.209.309.932-.8-.568-.8.574.3-.932-.79-.58.981-.006.3-.932.309.926h.987Zm3.61-.025.3.938-.8-.574-.79.574.29-.932-.79-.574.981-.012.309-.926.309.926h.975Zm1.074-3.184.3.932-.8-.568-.79.574.3-.932-.8-.58.987-.006.3-.932.309.926h.987Zm-2.857-2.116.309.938-.8-.574-.8.58.3-.938-.79-.58.975-.006.309-.932.309.926h.987Z" transform="translate(-34.995 -17.886)" fill="#fff" fill-rule="evenodd"/>
+        </g>
+      </g>
+      <rect id="Rectangle_13034" data-name="Rectangle 13034" width="49.929" height="33.211" transform="translate(0 0)" fill="none"/>
+    </g>
+  </g>
+</svg>

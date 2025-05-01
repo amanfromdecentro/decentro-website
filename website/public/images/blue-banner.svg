@@ -1,0 +1,26 @@
+<svg id="Component_1288_5" data-name="Component 1288 – 5" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="98" viewBox="0 0 1920 98">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#204490"/>
+      <stop offset="1" stop-color="#086ef2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#086ef2"/>
+      <stop offset="1" stop-color="#32cbd1"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_10731" data-name="Rectangle 10731" width="1920" height="98" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#49bddd"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_87089" data-name="Path 87089" d="M0,0H1920V98H0Z" fill="url(#linear-gradient-2)"/>
+  <g id="Mask_Group_36797" data-name="Mask Group 36797" clip-path="url(#clip-path)">
+    <g id="Products_Sold_Graph" data-name="Products Sold Graph" transform="translate(-118.657 -334.995) rotate(9)" opacity="0.474">
+      <path id="Filled.Graph" d="M16.569,76.114,0,0S242.556,70.309,428.358,89.732c199.511,14.573,229.522-3.743,379.2-18.681,128.04-12.162,259.489-7.026,387.393,5.882s244.063,48.436,395.289,64.334c263.446,12.73,387.315-29.2,400.374-50.113,1.5,6.871,41.371,190.046,41.371,190.046L22.75,104.506Z" transform="matrix(0.978, -0.208, 0.208, 0.978, 120.844, 342.787)" opacity="0.7" fill="url(#linear-gradient-3)"/>
+      <path id="Line.Graph" d="M-2.892,83.843s232.032,42.773,416.8,38.578S670.587,89.638,813,60.693s277.126-37.027,400.987-39.714,243.4,20,395.574,17.052S2009.606-18.445,2038.329-58" transform="translate(-6.149 178.249)" fill="none" stroke="#61d9ff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

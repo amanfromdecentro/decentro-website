@@ -1,0 +1,192 @@
+@import "../../../utilities/_variables.scss";
+
+.accordion-section {
+  margin-top: 50px;
+  padding: 40px;
+  width: 100%;
+  background-color: #fcfcfc;
+  border-radius: 20px;
+  box-sizing: border-box;
+
+  .accordion {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    align-self: flex-start;
+    cursor: pointer;
+    margin-top: 0;
+
+    h2.accordion-title {
+      font-size: $product-sections-subheader-font-size-desktop;
+      line-height: $product-sections-subheader-line-height-desktop;
+      font-weight: 600;
+      color: #096ef2;
+      text-align: left;
+      &.active {
+        margin-bottom: 20px;
+      }
+    }
+
+    img.expand-btn {
+      width: 20px;
+      height: 20px;
+      transition: 0.2s all;
+    }
+
+    img.expand-btn.active {
+      transform: rotate(90deg);
+      transition: 0.2s all;
+    }
+    svg {
+      color: #096ef2;
+      min-width: 30px;
+    }
+
+    width: 100%;
+  }
+
+  .accordion-content {
+    transition: max-height 0.2s ease;
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+
+    .accordion-text {
+      // display: flex;
+      // flex-flow: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      width: 100%;
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: $product-pages-body-text-line-height-desktop;
+    }
+
+    .bullet-point {
+      position: relative;
+      margin-top: 10px;
+      padding-left: 20px;
+      display: flex;
+      flex-flow: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: $product-pages-body-text-line-height-desktop;
+      display: inline-block;
+
+      &::before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        background: linear-gradient(240deg, #0092ff 0%, #1656db 100%) 0% 0%
+          no-repeat padding-box;
+        border-radius: 50px;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+.accordion-section:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .commonly-asked-questions {
+    .accordion-list {
+      .accordion-section {
+        .accordion {
+          width: 100%;
+
+          h2.accordion-title {
+            font-size: 18px;
+            line-height: 28px;
+            text-align: left;
+          }
+
+          img.expand-btn {
+            width: 20px;
+            height: 20px;
+          }
+        }
+
+        .accordion-content {
+          p.accordion-text {
+            font-size: 18px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .commonly-asked-questions {
+    .accordion-list {
+      padding: 30px;
+
+      .accordion-section {
+        .accordion {
+          h2.accordion-title {
+            font-size: 18px;
+            line-height: 24px;
+            text-align: left;
+          }
+
+          img.expand-btn {
+            width: 20px;
+            height: 20px;
+          }
+        }
+
+        .accordion-content {
+          p.accordion-text {
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .accordion-section {
+    padding: 40px 20px;
+  }
+
+  .commonly-asked-questions {
+    h2 {
+      text-align: left;
+    }
+
+    .accordion-list {
+      .accordion-section {
+        margin-top: 30px;
+
+        .accordion {
+          img.expand-btn {
+            width: 12px;
+            height: 12px;
+          }
+        }
+
+        .accordion-content {
+          p.accordion-text {
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<svg id="Saas" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.647" height="31.182" viewBox="0 0 34.647 31.182">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_material-developer-board" data-name="Icon material-developer-board" d="M37.647,14.894V11.429H34.182V7.965A3.475,3.475,0,0,0,30.717,4.5H6.465A3.475,3.475,0,0,0,3,7.965V32.217a3.475,3.475,0,0,0,3.465,3.465H30.717a3.475,3.475,0,0,0,3.465-3.465V28.753h3.465V25.288H34.182V21.823h3.465V18.359H34.182V14.894ZM30.717,32.217H6.465V7.965H30.717ZM9.929,21.823h8.662v6.929H9.929ZM20.323,11.429h6.929v5.2H20.323Zm-10.394,0h8.662v8.662H9.929Zm10.394,6.929h6.929V28.753H20.323Z" transform="translate(-3 -4.5)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,207 @@
+@import "../../../utilities/_variables.scss";
+
+.recommendation-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 50px;
+  gap: 40px;
+  //   cursor: pointer;
+  button.show-more {
+    border: 3px solid #096ef2;
+    color: #096ef2;
+    background: transparent;
+    width: max-content;
+    padding: 15px 45px;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 22px;
+    border-radius: 34px;
+  }
+  h2 {
+    font-size: $product-sections-header-font-size-desktop;
+    line-height: $product-sections-header-line-height-desktop;
+    font-weight: 400;
+    // color: #096ef2;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  .recommendation-cards {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap;
+    // margin-top: 40px;
+
+    .card-container-link {
+      width: 25%;
+      border-radius: 10px;
+      border: 1px solid #e2dfdf;
+      background-color: #ffffff;
+      padding: 40px;
+      display: flex;
+      flex-flow: column;
+      text-align: center;
+
+      .card {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+
+        .card-image {
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          justify-content: center;
+          height: 250px;
+
+          img {
+            width: 200px;
+          }
+        }
+
+        .card-title {
+          text-align: center;
+          color: #000000;
+          font-size: $product-sections-subheader-font-size-desktop;
+          line-height: $product-sections-subheader-line-height-desktop;
+          font-weight: 600;
+          margin-top: 30px;
+          flex: 1 0 auto;
+        }
+
+        p.card-description {
+          text-align: left;
+          margin-top: 40px;
+          color: #3c3c3c;
+          font-size: $product-pages-body-text-font-size-desktop;
+          line-height: $product-pages-body-text-line-height-desktop;
+          flex: 1 0 auto;
+          flex-grow: 10;
+        }
+
+        .card-link-container {
+          margin-top: 30px;
+          //   text-align: left;
+          width: 100%;
+
+          .card-link {
+            font-size: $product-pages-body-text-font-size-desktop;
+            line-height: $product-pages-body-text-line-height-desktop;
+            color: #096ef2;
+            font-weight: 600;
+            display: inline-flex;
+            align-items: center;
+
+            img {
+              margin-left: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .recommendation-container {
+    padding: 50px;
+
+    h2 {
+      text-align: center;
+    }
+
+    .recommendation-cards {
+      width: 100%;
+
+      .card {
+        .card-image {
+          img {
+            width: 165px;
+          }
+        }
+
+        p.card-title {
+          font-size: 24px;
+          line-height: 24px;
+        }
+
+        p.card-description {
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .recommendation-container {
+    padding: 50px 30px;
+
+    h2 {
+      text-align: center;
+      width: 100%;
+    }
+    .recommendation-cards {
+      width: 100%;
+      flex-flow: column;
+      .card-container-link {
+        width: 100%;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .recommendation-container {
+    .recommendation-cards {
+      width: 100%;
+      flex-flow: column;
+
+      .card-container-link {
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      .card {
+        width: 100%;
+        box-sizing: border-box;
+
+        .card-image {
+          img {
+            width: 165px;
+          }
+        }
+
+        p.card-title {
+          font-size: 24px;
+          line-height: 24px;
+        }
+
+        p.card-description {
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+
+  #digitalLendingSolutions {
+    h2 {
+      span {
+        display: flex;
+        flex-flow: row;
+        align-items: flex-start;
+        justify-content: flex-start;
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+.commonly-asked-questions {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+
+  .accordion-list {
+    // padding: 80px 100px;
+
+    .accordion-section {
+      margin-top: 50px;
+      padding: 40px;
+      width: 100%;
+      background-color: #fcfcfc;
+      border-radius: 20px;
+      box-sizing: border-box;
+
+      .accordion {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        align-self: flex-start;
+        cursor: pointer;
+        margin-top: 0;
+        gap: 10px;
+
+        h2.accordion-title {
+          font-size: 20px;
+          line-height: 30px;
+          font-weight: 600;
+        }
+
+        img.expand-btn {
+          width: 20px;
+          height: 20px;
+          transition: 0.2s all;
+        }
+
+        img.expand-btn.active {
+          transform: rotate(90deg);
+          transition: 0.2s all;
+        }
+
+        width: 100%;
+      }
+
+      .accordion-content {
+        transition: max-height 0.2s ease;
+        overflow: hidden;
+        text-align: left;
+        width: 100%;
+
+        .accordion-text {
+          display: flex;
+          flex-flow: column;
+          align-items: flex-start;
+          justify-content: flex-start;
+          text-align: left;
+          width: 100%;
+          font-size: 18px;
+          line-height: 28px;
+        }
+
+        .bullet-point {
+          position: relative;
+          margin-top: 10px;
+          padding-left: 20px;
+          display: flex;
+          flex-flow: row;
+          align-items: flex-start;
+          justify-content: flex-start;
+          text-align: left;
+          font-size: 18px;
+          line-height: 28px;
+
+          &::before {
+            content: "";
+            width: 12px;
+            height: 12px;
+            background: transparent
+              linear-gradient(213deg, #66ceac 0%, #3a36c6 100%) 0% 0%;
+            border-radius: 50px;
+            position: absolute;
+            left: 0;
+            z-index: 1;
+            margin-top: 8px;
+          }
+        }
+      }
+    }
+
+    .accordion-section:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .commonly-asked-questions {
+    .accordion-list {
+      .accordion-section {
+        .accordion {
+          width: 100%;
+
+          h2.accordion-title {
+            font-size: 18px;
+            line-height: 28px;
+            text-align: left;
+          }
+
+          img.expand-btn {
+            width: 20px;
+            height: 20px;
+          }
+        }
+
+        .accordion-content {
+          p.accordion-text {
+            font-size: 18px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .commonly-asked-questions {
+    .accordion-list {
+      padding: 30px;
+
+      .accordion-section {
+        .accordion {
+          h2.accordion-title {
+            font-size: 18px;
+            line-height: 24px;
+            text-align: left;
+          }
+
+          img.expand-btn {
+            width: 20px;
+            height: 20px;
+          }
+        }
+
+        .accordion-content {
+          p.accordion-text {
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .commonly-asked-questions {
+    h2 {
+      text-align: left;
+    }
+
+    .accordion-list {
+      .accordion-section {
+        margin-top: 30px;
+
+        .accordion {
+          img.expand-btn {
+            width: 20px;
+            height: 20px;
+          }
+        }
+
+        .accordion-content {
+          p.accordion-text {
+            font-size: 16px;
+            line-height: 24px;
+          }
+        }
+      }
+    }
+  }
+}

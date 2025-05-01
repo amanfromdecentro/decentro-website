@@ -1,0 +1,30 @@
+.inline-grey-container {
+  padding: 50px 100px;
+
+  .inline-content-container {
+    padding: 30px 50px;
+    background: #fafafa;
+    display: flex;
+    border-radius: 40px;
+    align-items: center;
+    gap: 20px;
+    .text-container {
+      font-size: 1rem !important;
+      line-height: 24px !important;
+      color: #192739;
+      text-align: left !important;
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .inline-grey-container {
+    padding: 50px 30px;
+    .inline-content-container {
+      flex-direction: column;
+      .text-container {
+        text-align: center !important;
+      }
+    }
+  }
+}

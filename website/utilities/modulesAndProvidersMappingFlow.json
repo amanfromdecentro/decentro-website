@@ -1,0 +1,90 @@
+{
+  "data": [
+    {
+      "displayName": "Payment Collections",
+      "extraText": " By Decfin (Payment Aggregator)",
+      "description": "UPI & Virtual Account collections, Recurring payments using Autopay and eNACH",
+      "id": 1,
+      "modules": [
+        {
+          "moduleCode": "core_banking",
+          "moduleId": 1,
+          "moduleProviderDetails": [
+            {
+              "providerName": "yesb",
+              "id": 1
+            }
+          ],
+          "credits": "100"
+        },
+        {
+          "moduleCode": "payments",
+          "moduleId": 6,
+          "moduleProviderDetails": [],
+          "credits": "100"
+        }
+      ]
+    },
+    {
+      "displayName": "Instant Payouts",
+      "description": "API & File based payouts to consumers & businesses in India",
+      "id": 2,
+      "modules": [
+        {
+          "moduleCode": "core_banking",
+          "moduleId": 1,
+          "moduleProviderDetails": [
+            {
+              "providerName": "yesb",
+              "id": 1
+            }
+          ],
+          "credits": "100"
+        },
+        {
+          "moduleCode": "payments",
+          "moduleId": 6,
+          "moduleProviderDetails": [],
+          "credits": "100"
+        }
+      ]
+    },
+    {
+      "displayName": "Escrow Accounts",
+      "description": "Compliant and digital workflows via partner banks and Tri-Party Trustee Backed Escrow Accounts",
+      "id": 5,
+      "modules": [
+        {
+          "moduleCode": "core_banking",
+          "moduleId": 1,
+          "moduleProviderDetails": [
+            {
+              "providerName": "yesb",
+              "id": 1
+            }
+          ],
+          "credits": "100"
+        },
+        {
+          "moduleCode": "payments",
+          "moduleId": 6,
+          "moduleProviderDetails": [],
+          "credits": "100"
+        }
+      ]
+    },
+    {
+      "displayName": "Ledgers",
+      "description": "Auditable record-keeping & reconciliation system for any use case and currency",
+      "id": 3,
+      "modules": [
+        {
+          "moduleCode": "ledger",
+          "moduleId": 10,
+          "moduleProviderDetails": [],
+          "credits": "100"
+        }
+      ]
+    }
+  ]
+}

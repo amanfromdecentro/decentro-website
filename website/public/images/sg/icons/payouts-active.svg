@@ -1,0 +1,9 @@
+<svg id="Payout" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.448" height="34" viewBox="0 0 33.448 34">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.799" y1="0.079" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Payout-2" data-name="Payout" d="M113.548,94.4c0,10.2-7.527,17-18.552,17H88.711L100.76,99.351c.158-.158.227-.128.365.01.611.621,1.222,1.241,1.842,1.842a1.023,1.023,0,0,0,1.813-.788c0-2.709-.02-5.429.01-8.138a1.129,1.129,0,0,0-1.222-1.222c-2.68.03-5.36.01-8.049.01a2.569,2.569,0,0,0-.818.118c-.1.108-.207.207-.315.315a1.012,1.012,0,0,0,.138,1.409c.079.089.158.167.236.246l1.488,1.488c.256.256.256.286-.01.552-.069.069-.138.128-.2.2L80.1,111.331v-6.837h.01V77.4H94.977a27.152,27.152,0,0,1,4.749.453C108.13,79.538,113.548,85.745,113.548,94.4Z" transform="translate(-80.1 -77.4)" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,24 @@
+<svg id="CNY" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="33" viewBox="0 0 50 33">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_13021" data-name="Rectangle 13021" width="50" height="33" rx="5" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_13019" data-name="Rectangle 13019" width="49.929" height="33.211" transform="translate(0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_42453" data-name="Mask Group 42453" clip-path="url(#clip-path)">
+    <g id="Group_42743" data-name="Group 42743">
+      <g id="Group_42742" data-name="Group 42742" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_13018" data-name="Rectangle 13018" width="49.929" height="33.211" transform="translate(0)" fill="#fff"/>
+        <path id="Path_90549" data-name="Path 90549" d="M12.5,5H62.429V38.211H12.5Z" transform="translate(-12.5 -5)" fill="#ee1c25"/>
+        <path id="Path_90550" data-name="Path 90550" d="M25.6,31.271l3.149-9.446L31.9,31.271,23.5,25.5H34Z" transform="translate(-21.015 -18.024)" fill="#ff0"/>
+        <path id="Path_90551" data-name="Path 90551" d="M82.138,16.457l-3.24.718,2.161-2.519-.212,3.39-1.8-3Z" transform="translate(-63.896 -12.475)" fill="#ff0"/>
+        <path id="Path_90552" data-name="Path 90552" d="M96.526,32.4l-3.265-.595,2.969-1.483-1.51,3.042L94.227,29.9Z" transform="translate(-75.015 -24.278)" fill="#ff0"/>
+        <path id="Path_90553" data-name="Path 90553" d="M96.219,55.674,93.48,53.8l3.316-.143-2.62,2.162.962-3.364Z" transform="translate(-75.185 -41.733)" fill="#ff0"/>
+        <path id="Path_90554" data-name="Path 90554" d="M80.729,71.916l-1.8-2.787,3.114,1.148-3.251.982,2.186-2.731Z" transform="translate(-63.813 -54.176)" fill="#ff0"/>
+      </g>
+      <rect id="Rectangle_13020" data-name="Rectangle 13020" width="49.929" height="33.211" transform="translate(0 0)" fill="none" stroke="#a8b7d4" stroke-linejoin="round" stroke-width="0.498"/>
+    </g>
+  </g>
+</svg>

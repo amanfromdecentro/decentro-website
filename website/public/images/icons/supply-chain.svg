@@ -1,0 +1,15 @@
+<svg id="Supply_Chain" data-name="Supply Chain" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="37.015" height="36.979" viewBox="0 0 37.015 36.979">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_87181" data-name="Path 87181" d="M148.229,108.326,141,103.988v7.952l7.229,4.338Zm0,0" transform="translate(-130.806 -96.471)" fill="url(#linear-gradient)"/>
+  <path id="Path_87182" data-name="Path 87182" d="M157.628,4.988,149.314,0,141,4.988l8.314,4.988Zm0,0" transform="translate(-130.806)" fill="url(#linear-gradient)"/>
+  <path id="Path_87183" data-name="Path 87183" d="M278.229,111.941v-7.952L271,108.326v7.952Zm0,0" transform="translate(-251.408 -96.471)" fill="url(#linear-gradient)"/>
+  <path id="Path_87184" data-name="Path 87184" d="M191.061,371.492a5.061,5.061,0,1,0,5.061,5.061A5.066,5.066,0,0,0,191.061,371.492Zm0,0" transform="translate(-172.553 -344.635)" fill="url(#linear-gradient)"/>
+  <path id="Path_87185" data-name="Path 87185" d="M5.061,371.492a5.061,5.061,0,1,0,5.061,5.061A5.066,5.066,0,0,0,5.061,371.492Zm0,0" transform="translate(0 -344.635)" fill="url(#linear-gradient)"/>
+  <path id="Path_87186" data-name="Path 87186" d="M377.061,371.492a5.061,5.061,0,1,0,5.061,5.061A5.066,5.066,0,0,0,377.061,371.492Zm0,0" transform="translate(-345.106 -344.635)" fill="url(#linear-gradient)"/>
+  <path id="Path_87187" data-name="Path 87187" d="M57.169,308.176v-.515H68.447v.515a7.273,7.273,0,0,1,2.169,0v-.515H81.893v.515a7.273,7.273,0,0,1,2.169,0v-2.684H55v2.684a7.273,7.273,0,0,1,2.169,0Zm0,0" transform="translate(-51.023 -283.406)" fill="url(#linear-gradient)"/>
+</svg>

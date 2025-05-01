@@ -1,0 +1,14 @@
+<svg id="Financial_Institution" data-name="Financial Institution" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.158" x2="0.332" y2="1.17" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_41458" data-name="Group 41458" transform="translate(13307.604 -7707.664)">
+    <path id="Path_68644" data-name="Path 68644" d="M36.549,352.307v-3.9H34.2v-3.35h-6.48v3.35H22.24v-3.35H15.76v3.35H10.277v-3.35H3.8v3.35H1.451v3.9H0v2.227H38v-2.227Z" transform="translate(-13307.604 7388.304)" fill="url(#linear-gradient)"/>
+    <path id="Path_68645" data-name="Path 68645" d="M22.848,151.938h4.565L27.1,142.48h8.028l-.315,9.458h4.565l-.315-9.458h8.028l-.315,9.458h4.565l-.315-9.458h3.619v-3.619h-35.1v3.619h3.619Z" transform="translate(-13325.697 7579.195)" fill="url(#linear-gradient)"/>
+    <path id="Path_68646" data-name="Path 68646" d="M67.443,39.251,52.327,44.417H82.56Z" transform="translate(-13356.048 7671.413)" fill="url(#linear-gradient)"/>
+  </g>
+  <rect id="Rectangle_12363" data-name="Rectangle 12363" width="38" height="38" fill="none"/>
+</svg>

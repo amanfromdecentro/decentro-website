@@ -1,0 +1,39 @@
+<svg id="Flag_Singapore" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.5" height="42.5" viewBox="0 0 42.5 42.5">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Ellipse_1613" data-name="Ellipse 1613" cx="21.085" cy="21.085" r="21.085"/>
+    </clipPath>
+  </defs>
+  <g id="Group_28725" data-name="Group 28725" transform="translate(0.165 0.164)">
+    <g id="Group_28724" data-name="Group 28724" clip-path="url(#clip-path)">
+      <g id="Group_28718" data-name="Group 28718">
+        <path id="Path_67465" data-name="Path 67465" d="M.96.96H65.725V44.139H.96Z" transform="translate(-0.96 -0.96)" fill="#fff"/>
+        <path id="Path_67466" data-name="Path 67466" d="M.96.96H65.725V22.546H.96Z" transform="translate(-0.96 -0.96)" fill="#ed2939"/>
+        <circle id="Ellipse_1611" data-name="Ellipse 1611" cx="7.947" cy="7.947" r="7.947" transform="translate(5.733 2.847)" fill="#fff"/>
+      </g>
+      <circle id="Ellipse_1612" data-name="Ellipse 1612" cx="7.947" cy="7.947" r="7.947" transform="translate(9.33 2.847)" fill="#ed2939"/>
+      <path id="s" d="M27.3,7.29l-1.219,3.743L29.264,8.72H25.33l3.183,2.313Z" transform="translate(-9.272 -3.119)" fill="#fff"/>
+      <g id="t" transform="translate(6.945 -8.216)">
+        <g id="Group_28719" data-name="Group 28719" transform="translate(3.841 24.724) rotate(72)">
+          <path id="s_00000181047607840264878430000005161032295898324895_" d="M3.934,1.43H0L3.183,3.743,1.964,0,.745,3.743Z" transform="translate(0 0)" fill="#fff"/>
+        </g>
+        <g id="Group_28720" data-name="Group 28720" transform="translate(3.182 5.34) rotate(-144)">
+          <path id="s_00000060745378475433086010000000143086252141564835_" d="M.751,3.743,3.934,1.43H0L3.183,3.743,1.964,0Z" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Group_28723" data-name="Group 28723" transform="translate(14.989 -4.345) rotate(72)">
+        <g id="t_00000114788074655018494870000000043867031942179493_" transform="translate(0 0)">
+          <g id="Group_28721" data-name="Group 28721" transform="translate(3.559 19.616) rotate(72)">
+            <path id="s_00000043455240969549514090000003588511477197532053_" d="M3.189,3.743,1.97,0,.751,3.743,3.934,1.43H0Z" transform="translate(0)" fill="#fff"/>
+          </g>
+          <g id="Group_28722" data-name="Group 28722" transform="translate(6.604 5.336) rotate(-144)">
+            <path id="s_00000148627634686177531300000017216139429488954543_" d="M0,1.43,3.183,3.743,1.964,0,.745,3.743,3.927,1.43Z" transform="translate(0)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Group_28726" data-name="Group 28726">
+    <path id="Path_67467" data-name="Path 67467" d="M21.96.875A21.085,21.085,0,1,1,.875,21.96,21.088,21.088,0,0,1,21.96.875m0-.165A21.25,21.25,0,1,0,43.21,21.96,21.276,21.276,0,0,0,21.96.71Z" transform="translate(-0.71 -0.71)" fill="#eaeaea"/>
+  </g>
+</svg>

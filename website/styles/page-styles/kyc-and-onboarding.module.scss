@@ -1,0 +1,61 @@
+@import "../../utilities/_variables.scss";
+
+.kyc-onboarding {
+  .commonly-asked-questions {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 80px;
+    .accordion-list {
+      margin-top: 40px;
+    }
+
+    h2 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #0a192c;
+
+      span {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .kyc-onboarding {
+    .commonly-asked-questions {
+      padding: 50px;
+      .accordion-list {
+        padding: 50px 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .kyc-onboarding {
+    .commonly-asked-questions {
+      padding: 50px 30px;
+      .accordion-list {
+        padding: 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .kyc-onboarding {
+    .commonly-asked-questions {
+      .accordion-list {
+        padding: 30px 0;
+      }
+      h2 {
+        text-align: left;
+        width: 100%;
+      }
+    }
+  }
+}

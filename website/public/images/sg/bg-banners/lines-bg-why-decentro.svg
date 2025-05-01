@@ -1,0 +1,27 @@
+<svg id="Lines_BG_-_Why_Decentro" data-name="Lines BG - Why Decentro" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1251" height="1308" viewBox="0 0 1251 1308">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_3677" data-name="Rectangle 3677" width="1251" height="1308" transform="translate(828.232 1460.139)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.394" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g id="Mask_Group_22" data-name="Mask Group 22" transform="translate(-828.232 -1460.139)" clip-path="url(#clip-path)">
+    <g id="Group_29025" data-name="Group 29025">
+      <g id="Group_2225" data-name="Group 2225" transform="translate(1331.396 1296.4) rotate(16)">
+        <path id="Vector_178" data-name="Vector 178" d="M0,1146.49C68.506,948.52,252.058,520.648,438.214,392.92,670.909,233.261,733.188,132.483,778.481,0" transform="translate(178.343 174.38)" fill="none" stroke="#cfe4ff" stroke-width="1"/>
+        <path id="Vector_179" data-name="Vector 179" d="M0,1146.49C68.506,948.52,252.058,520.648,438.214,392.92,670.909,233.261,733.188,132.483,778.481,0" transform="translate(152.865 149.468)" fill="none" stroke="#cfe4ff" stroke-width="1"/>
+        <path id="Vector_180" data-name="Vector 180" d="M0,1146.49C68.506,948.52,252.058,520.648,438.214,392.92,670.909,233.261,733.188,132.483,778.481,0" transform="translate(127.388 124.557)" fill="none" stroke="#cfe4ff" stroke-width="1"/>
+        <path id="Vector_181" data-name="Vector 181" d="M0,1146.49C68.506,948.52,252.058,520.648,438.214,392.92,670.909,233.261,733.188,132.483,778.481,0" transform="translate(101.91 99.646)" fill="none" stroke="#cfe4ff" stroke-width="1"/>
+        <path id="Vector_182" data-name="Vector 182" d="M0,1146.49C68.506,948.52,252.058,520.648,438.214,392.92,670.909,233.261,733.188,132.483,778.481,0" transform="translate(76.433 74.734)" fill="none" stroke="#cfe4ff" stroke-width="1"/>
+        <path id="Vector_183" data-name="Vector 183" d="M0,1146.49C68.506,948.52,252.058,520.648,438.214,392.92,670.909,233.261,733.188,132.483,778.481,0" transform="translate(50.955 49.823)" fill="none" stroke="#cfe4ff" stroke-width="1"/>
+        <path id="Vector_184" data-name="Vector 184" d="M0,1146.49C68.506,948.52,252.058,520.648,438.214,392.92,670.909,233.261,733.188,132.483,778.481,0" transform="translate(25.478 24.911)" fill="none" stroke="#cfe4ff" stroke-width="1"/>
+        <path id="Vector_185" data-name="Vector 185" d="M0,1146.49C68.506,948.52,252.058,520.648,438.214,392.92,670.909,233.261,733.188,132.483,778.481,0" transform="translate(0 0)" fill="none" stroke="#cfe4ff" stroke-width="1"/>
+      </g>
+      <path id="Path_68546" data-name="Path 68546" d="M399.5,0C620.138,0,799,159.387,799,356S620.138,712,399.5,712,0,552.613,0,356,178.862,0,399.5,0Z" transform="translate(735.232 2138.139)" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<svg id="Insurance" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_41457" data-name="Group 41457" transform="translate(13272.5 -7576.146)">
+    <path id="Path_77327" data-name="Path 77327" d="M13.787,13.292H12.141a.411.411,0,0,1-.411-.411V11.234A1.238,1.238,0,0,0,10.495,10H8.026a1.236,1.236,0,0,0-1.234,1.234V12.88a.411.411,0,0,1-.411.411H4.734A1.236,1.236,0,0,0,3.5,14.526v2.469a1.236,1.236,0,0,0,1.234,1.234H6.38a.411.411,0,0,1,.411.411v1.646a1.236,1.236,0,0,0,1.234,1.234h2.469a1.238,1.238,0,0,0,1.234-1.234V18.641a.411.411,0,0,1,.411-.411h1.646a1.238,1.238,0,0,0,1.234-1.234V14.526A1.238,1.238,0,0,0,13.787,13.292Z" transform="translate(-13270.239 7581.747)" fill="url(#linear-gradient)"/>
+    <path id="Path_77328" data-name="Path 77328" d="M38,5.667A3.167,3.167,0,0,0,34.833,2.5H3.167A3.167,3.167,0,0,0,0,5.667v23.75a3.167,3.167,0,0,0,3.167,3.167H34.833A3.167,3.167,0,0,0,38,29.417ZM3.958,29.417a.792.792,0,0,1-.792-.792V12a.792.792,0,0,1,.792-.792H34.042a.792.792,0,0,1,.792.792V28.625a.792.792,0,0,1-.792.792Z" transform="translate(-13272.5 7577.646)" fill="url(#linear-gradient)"/>
+    <path id="Path_77329" data-name="Path 77329" d="M22.8,11.75H14.984a1.234,1.234,0,0,0,0,2.469H22.8a1.234,1.234,0,1,0,0-2.469Z" transform="translate(-13264.783 7582.992)" fill="url(#linear-gradient)"/>
+    <path id="Path_77330" data-name="Path 77330" d="M20.745,14.75h-5.76a1.234,1.234,0,1,0,0,2.469h5.76a1.234,1.234,0,1,0,0-2.469Z" transform="translate(-13264.705 7584.726)" fill="url(#linear-gradient)"/>
+  </g>
+  <rect id="Rectangle_12362" data-name="Rectangle 12362" width="38" height="38" fill="none"/>
+</svg>

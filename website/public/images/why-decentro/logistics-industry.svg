@@ -1,0 +1,13 @@
+<svg id="Logistics" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.996" height="20.642" viewBox="0 0 34.996 20.642">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_90893" data-name="Path 90893" d="M320.872,106.11h-3.833l-.59,5.645h3.833Z" transform="translate(-294.819 -106.034)" fill="url(#linear-gradient)"/>
+  <path id="Path_90894" data-name="Path 90894" d="M184.665,105h-4.322l-.716,6.852a1.026,1.026,0,0,1-1.02.919h-5.895a1.025,1.025,0,0,1-1.019-1.132l.694-6.64h-4.655a2.552,2.552,0,0,0-2.535,2.261L163.406,122.8a2.554,2.554,0,0,0,2.535,2.845h16.933a2.552,2.552,0,0,0,2.535-2.26l1.791-15.536A2.554,2.554,0,0,0,184.665,105Z" transform="translate(-152.222 -105)" fill="url(#linear-gradient)"/>
+  <path id="Path_90895" data-name="Path 90895" d="M8.2,305.11H1.025a1.025,1.025,0,0,0,0,2.051H8.2a1.025,1.025,0,0,0,0-2.051Z" transform="translate(0 -291.432)" fill="url(#linear-gradient)"/>
+  <path id="Path_90896" data-name="Path 90896" d="M24.02,241.11H18a1.025,1.025,0,1,0,0,2.051H24.02a1.025,1.025,0,1,0,0-2.051Z" transform="translate(-15.818 -231.807)" fill="url(#linear-gradient)"/>
+  <path id="Path_90897" data-name="Path 90897" d="M38.927,177.11H34.005a1.025,1.025,0,0,0,0,2.051h4.922a1.025,1.025,0,0,0,0-2.051Z" transform="translate(-30.726 -172.181)" fill="url(#linear-gradient)"/>
+</svg>

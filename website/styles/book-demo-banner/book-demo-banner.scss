@@ -1,0 +1,147 @@
+@import "../../utilities/variables";
+
+.inline-image-and-paragraph {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  box-sizing: border-box;
+
+  .text-content {
+    display: flex;
+    flex-flow: column;
+
+    h1 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #0a192c;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    p.tagline {
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: 22px;
+      font-weight: 400;
+      color: #68727d;
+      margin-top: 20px;
+      text-align: left;
+      width: 85%;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 26px;
+      color: #3c3c3c;
+      margin-top: 30px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: max-content;
+      margin-top: 50px;
+      padding: 15px 45px;
+      font-size: $product-pages-body-text-font-size-desktop;
+      font-weight: 600;
+      line-height: 22px;
+      border-radius: 34px;
+      color: #ffffff;
+      border: none;
+      background: transparent linear-gradient(90deg, #096ef2 0%, #0092ff 100%)
+        0% 0% no-repeat padding-box;
+    }
+  }
+
+  .image-content {
+    max-width: 450px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .inline-image-and-paragraph {
+    padding: 50px;
+    width: 100%;
+
+    .text-content {
+      h2 {
+        margin-top: 20px;
+      }
+
+      a {
+        margin-top: 30px;
+        padding: 15px 40px;
+      }
+    }
+
+    .image-content {
+      margin-top: -70px;
+
+      img {
+        width: 420px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .inline-image-and-paragraph {
+    flex-flow: column-reverse;
+    justify-content: unset;
+    min-height: unset;
+
+    .text-content {
+      margin-top: 30px;
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      p.tagline {
+        text-align: center;
+      }
+    }
+
+    .image-content {
+      margin-top: 10px;
+      text-align: center;
+
+      img {
+        width: 250px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .inline-image-and-paragraph {
+    .text-content {
+      align-items: flex-start;
+
+      h1,
+      h2 {
+        text-align: left;
+      }
+
+      p.tagline {
+        text-align: left;
+      }
+    }
+  }
+}

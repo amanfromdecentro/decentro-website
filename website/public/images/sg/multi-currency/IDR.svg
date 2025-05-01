@@ -1,0 +1,20 @@
+<svg id="IDR" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="33" viewBox="0 0 50 33">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_13030" data-name="Rectangle 13030" width="50" height="33" rx="5" transform="translate(0 0)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_13028" data-name="Rectangle 13028" width="49.929" height="33.211" transform="translate(0)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_42455" data-name="Mask Group 42455" clip-path="url(#clip-path)">
+    <g id="Group_42747" data-name="Group 42747">
+      <g id="Group_42746" data-name="Group 42746" transform="translate(0 0)" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_13027" data-name="Rectangle 13027" width="49.929" height="33.211" transform="translate(0)" fill="#fff"/>
+        <path id="Path_90609" data-name="Path 90609" d="M12.5,5H62.429V38.211H12.5Z" transform="translate(-12.5 -5)" fill="#fff"/>
+        <path id="Path_90610" data-name="Path 90610" d="M12.5,5H62.429V21.606H12.5Z" transform="translate(-12.5 -5)" fill="red"/>
+      </g>
+      <rect id="Rectangle_13029" data-name="Rectangle 13029" width="49.929" height="33.211" transform="translate(0 0)" fill="none"/>
+    </g>
+  </g>
+</svg>

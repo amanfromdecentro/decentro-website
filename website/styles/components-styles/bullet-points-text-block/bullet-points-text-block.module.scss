@@ -1,0 +1,274 @@
+@import "../../../utilities/_variables.scss";
+.bullet-points-text-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 50px 100px;
+  p {
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: $product-pages-body-text-line-height-desktop;
+    font-weight: 400;
+    color: #3c3c3c;
+    margin-top: 20px;
+    width: 85%;
+  }
+  .bullet-points-header {
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    width: 85%;
+  }
+  .bullet-points-text-content {
+    margin-top: 20px;
+    .text-block {
+      display: flex;
+      flex-direction: column;
+      gap: 35px;
+      p {
+        font-weight: 600;
+        line-height: 100%;
+        margin-top: 0;
+      }
+      a {
+        // margin-top: 15px;
+        line-height: 100%;
+      }
+      .text-block-container {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        .text-block-top {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          .lighter-top-heading {
+            color: #909090;
+            font-size: $product-pages-body-text-font-size-desktop;
+          }
+          .lighter-sub-heading {
+            font-size: $product-pages-body-text-font-size-desktop;
+            line-height: $product-pages-body-text-line-height-desktop;
+            font-weight: 400;
+            color: #3c3c3c;
+          }
+        }
+        .text-block-middle {
+          display: flex;
+          gap: 20px;
+          .item {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            img {
+              height: 20px;
+              width: 20px;
+            }
+            a {
+              svg {
+                height: 20px;
+                width: 20px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .vertical-line {
+    width: 100%;
+    border: 1px solid #cfe3fc;
+  }
+  h2 {
+    font-size: $product-sections-header-font-size-desktop;
+    line-height: $product-sections-header-line-height-desktop;
+    font-weight: 400;
+    color: #0a192c;
+    span {
+      font-weight: 600;
+    }
+  }
+  .bullet-points-text-content {
+    width: 85%;
+    display: flex;
+    flex-flow: row;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    margin-top: 40px;
+    .bullet-points {
+      width: 42%;
+      p {
+        position: relative;
+        font-size: $product-pages-body-text-font-size-desktop;
+        line-height: $product-pages-body-text-line-height-desktop;
+        font-weight: 400;
+        color: #3c3c3c;
+        margin-top: 15px;
+        padding-left: 30px;
+        width: 100%;
+      }
+      p:first-child {
+        margin-top: 0px;
+      }
+      p::before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        background: linear-gradient(240deg, #0092ff 0%, #1656db 100%) 0% 0%
+          no-repeat padding-box;
+        border-radius: 50px;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        margin-top: 8px;
+      }
+      a.bullet-points-link {
+        background: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+      }
+      a.bullet-points-link-border {
+        border-bottom: 2px solid #3c3c3c;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+    hr {
+      width: 1px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 420px;
+      margin-top: 0;
+      border: none;
+      background: #bcbcbc;
+    }
+    .text-block {
+      width: 42%;
+      padding: 30px;
+      border-radius: 20px;
+      background: #f7faff;
+      p {
+        font-size: $product-sections-subheader-font-size-desktop;
+        color: #3c3c3c;
+        width: 100%;
+        font-weight: 600;
+        line-height: $product-sections-subheader-line-height-desktop;
+        margin-top: 0;
+      }
+      a {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        // margin-top: 40px;
+        font-size: $product-sections-subheader-font-size-desktop;
+        font-weight: 600;
+        line-height: $product-sections-subheader-line-height-desktop;
+        color: #096ef2;
+        border: none;
+        background: none;
+        gap: 5px;
+        svg {
+          // margin-left: 15px;
+        }
+      }
+      a.reference-link {
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: 400;
+        color: #3c3c3c;
+        background: none;
+        margin: 0;
+        padding: 0;
+        display: inline;
+      }
+
+      a.features-link {
+        border-bottom: 1px solid #3c3c3c;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .bullet-points-text-container {
+    padding: 50px;
+    .bullet-points-text-content {
+      width: 90%;
+      .bullet-points {
+        width: 50%;
+        p {
+          margin-top: 10px;
+        }
+      }
+      .text-block {
+        width: 35%;
+        padding: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .bullet-points-text-container {
+    padding: 50px 30px;
+    border-radius: unset;
+    h2 {
+      text-align: left;
+      width: 100%;
+    }
+    p.tagline {
+      text-align: left;
+      width: 100%;
+    }
+
+    .bullet-points-header {
+      width: 100%;
+    }
+    .bullet-points-text-content {
+      flex-flow: column;
+      width: 100%;
+      .bullet-points {
+        width: 100%;
+      }
+      hr {
+        display: none;
+      }
+      .text-block {
+        width: calc(100% - 40px);
+        padding: 20px;
+        margin-top: 20px;
+
+        a {
+          margin-top: 20px;
+          svg {
+            margin-left: 10px;
+          }
+        }
+        a.reference-link {
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .bullet-points-text-container {
+    align-items: flex-start;
+    h2 {
+      text-align: left;
+    }
+    .bullet-points-text-content {
+      .text-block {
+        a {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+}

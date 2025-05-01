@@ -1,0 +1,210 @@
+@import "../../../utilities/_variables.scss";
+
+.image-text-block-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-top: 80px;
+  padding: 80px 100px;
+  background: #fafafa;
+  border-radius: 0px 133px 0px 0px;
+
+  h2 {
+    font-size: $product-sections-header-font-size-desktop;
+    line-height: $product-sections-header-line-height-desktop;
+    font-weight: 400;
+    color: #096ef2;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  p.tagline {
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: $product-pages-body-text-line-height-desktop;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .image-text-block-list {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    padding: 0 50px;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+
+    .image-text-block {
+      // width: 25%;
+      margin-top: 50px;
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 30px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.04);
+      position: relative;
+
+      .image {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 10px;
+        width: 100%;
+        h4 {
+          text-align: left;
+        }
+        img {
+          height: 40px;
+          max-width: 40px;
+        }
+      }
+
+      h4 {
+        font-size: $product-sections-subheader-font-size-desktop;
+        line-height: $product-sections-subheader-line-height-desktop;
+        text-align: center;
+        color: #096ef2;
+        font-weight: 600;
+        margin-top: 10px;
+      }
+
+      p {
+        font-size: $product-pages-body-text-font-size-desktop;
+        line-height: $product-pages-body-text-line-height-desktop;
+        font-weight: 400;
+        color: #3c3c3c;
+        margin-top: 20px;
+        text-align: left;
+
+        a {
+          color: #3c3c3c;
+        }
+      }
+    }
+
+    .image-text-block:nth-child(3) {
+      .image {
+        img {
+          max-width: 40px;
+        }
+      }
+    }
+
+    .image-text-block:nth-child(4) {
+      .image {
+        img {
+          width: 40px;
+        }
+      }
+    }
+  }
+}
+
+a.features-link {
+  border-bottom: 1px solid #3c3c3c;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .image-text-block-container {
+    padding: 50px;
+
+    .image-text-block-list {
+      width: 100%;
+      padding: 0 30px;
+      flex-wrap: wrap;
+      margin-top: 0;
+
+      .image-text-block {
+        margin-top: 40px;
+        padding: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .image-text-block-container {
+    margin-top: 50px;
+    padding: 30px 30px 50px 30px;
+    border-radius: unset;
+
+    h2 {
+      text-align: left;
+      width: 100%;
+    }
+
+    p.tagline {
+      text-align: left;
+      width: 100%;
+    }
+
+    .image-text-block-list {
+      margin-top: 0px;
+      flex-flow: row;
+      flex-wrap: wrap;
+      padding: 0 20px;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 30px;
+      grid-row-gap: 0px;
+
+      .image-text-block {
+        margin-top: 30px;
+        padding: 20px 10px;
+        align-items: center;
+        justify-content: center;
+
+        .image {
+          img {
+            width: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .image-text-block-container {
+    h2 {
+      text-align: left;
+    }
+
+    .image-text-block-list {
+      grid-column-gap: 20px;
+      grid-row-gap: 0px;
+      padding: 0;
+      display: flex;
+      flex-flow: column;
+
+      .image-text-block {
+        width: 100%;
+        .image {
+          flex-flow: row;
+          justify-content: flex-start;
+          gap: 10px;
+          width: 100%;
+          img {
+            width: 50px;
+          }
+        }
+
+        p {
+          text-align: left;
+        }
+      }
+    }
+  }
+}

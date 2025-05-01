@@ -1,0 +1,127 @@
+@import "../../../utilities/variables";
+
+.accordion-section {
+  padding: 40px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px #0000000a;
+
+  .accordion {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    align-self: flex-start;
+    cursor: pointer;
+    margin-top: 0;
+    color: #260b07;
+
+    h2.accordion-title {
+      font-size: $product-sections-subheader-font-size-desktop;
+      line-height: $product-sections-subheader-line-height-desktop;
+      font-weight: 600;
+      &.active {
+        color: #096ef2 !important;
+      }
+    }
+
+    img.expand-btn {
+      width: 20px;
+      height: 20px;
+      transition: 0.2s all;
+
+      &:active {
+        transform: rotate(90deg);
+        transition: 0.2s all;
+      }
+    }
+  }
+
+  .accordion-content {
+    transition: max-height 0.2s ease;
+    overflow: hidden;
+    text-align: left;
+    width: 100%;
+
+    .accordion-text {
+      display: flex;
+      flex-flow: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      width: 100%;
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: $product-pages-body-text-line-height-desktop;
+      color: #7a7a7a;
+      font-weight: 400;
+      margin-top: 20px;
+    }
+
+    .bullet-point {
+      position: relative;
+      margin-top: 10px;
+      padding-left: 20px;
+      display: flex;
+      flex-flow: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+      text-align: left;
+      font-size: 18px;
+      line-height: 28px;
+
+      &::before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        background: transparent transparent
+          linear-gradient(90deg, #096ef2 0%, #0092ff 100%) 0% 0% no-repeat
+          padding-box 0% 0%;
+        border-radius: 50px;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        margin-top: 8px;
+      }
+    }
+  }
+}
+
+.accordion-section:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .accordion-section {
+    .accordion {
+      width: 100%;
+
+      img.expand-btn {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .accordion-section {
+    .accordion {
+      width: 100%;
+
+      img.expand-btn {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .accordion-section {
+    padding: 20px;
+    border-radius: 12px;
+  }
+}

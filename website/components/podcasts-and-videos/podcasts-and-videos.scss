@@ -1,0 +1,155 @@
+.podcasts-and-videos {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 100px;
+
+  h2 {
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 400;
+    color: #096ef2;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #3c3c3c;
+    margin-top: 30px;
+  }
+
+  .affiliations {
+    .inline-image-and-paragraph {
+      padding: 60px;
+
+      h2 {
+        color: #3c3c3c;
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 34px;
+      }
+
+      &:nth-child(2) {
+        flex-flow: row-reverse;
+      }
+
+      .image {
+        align-items: center;
+
+        img {
+          max-width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .podcasts-and-videos {
+    padding: 50px;
+
+    h2 {
+      font-size: 36px;
+      line-height: 42px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 28px;
+      margin-top: 20px;
+    }
+
+    .podcasts-videos-contents {
+      .podcasts-videos-row {
+        .podcasts-videos-step {
+          width: calc(100% / 3 - 50px);
+
+          .item {
+            p {
+              padding: 20px;
+            }
+          }
+
+          p.youtube-description {
+            padding: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .podcasts-and-videos {
+    padding: 30px 30px 50px 30px;
+
+    h2 {
+      font-size: 30px;
+      line-height: 40px;
+      text-align: center;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .podcasts-videos-contents {
+      .podcasts-videos-row {
+        .podcasts-videos-step {
+          width: calc(100% / 2 - 50px);
+
+          .item {
+            p {
+              padding: 20px;
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+
+          p.youtube-description {
+            padding: 20px;
+            font-size: 16px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .podcasts-and-videos {
+    h2 {
+      width: 100%;
+      text-align: left;
+    }
+
+    p {
+      text-align: left;
+    }
+
+    .podcasts-videos-contents {
+      .podcasts-videos-row {
+        flex-flow: column;
+
+        .podcasts-videos-step {
+          width: 100%;
+
+          .secondary-yt-tab {
+            display: inline-block;
+          }
+        }
+      }
+    }
+  }
+}

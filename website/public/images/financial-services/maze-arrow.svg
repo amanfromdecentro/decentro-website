@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="222.72" height="881.665" viewBox="0 0 222.72 881.665">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <g id="Maze_Arrow" data-name="Maze Arrow" transform="translate(0)">
+    <path id="Path_68883" data-name="Path 68883" d="M240.672,342.432V101.856l26.88-.384L226.08,40.8,184.8,102.432l26.88-.192V342.432h0v29.184H378.336V692.64H211.68v29.184h0v200.64h28.992V721.824H407.52V342.432Z" transform="translate(-184.8 -40.8)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

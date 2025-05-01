@@ -1,0 +1,11 @@
+<svg id="Freelancer" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.614" height="30.667" viewBox="0 0 34.614 30.667">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.414" y1="-0.848" x2="0.393" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_77832" data-name="Path 77832" d="M44.12,385.83v1.9a2.831,2.831,0,0,0,2.831,2.831H75.9a2.831,2.831,0,0,0,2.831-2.831v-1.9Z" transform="translate(-44.12 -359.892)" fill="url(#linear-gradient)"/>
+  <path id="Path_77833" data-name="Path 77833" d="M102.488,72.528A4.248,4.248,0,0,0,98.24,68.28H76.758a4.248,4.248,0,0,0-4.248,4.248V86.1h29.978Zm-9.782,9.688-.87.863L89.279,80.5l-1.127,3.8-3.918-9.756,9.72,3.992-3.807,1.1Z" transform="translate(-70.191 -68.28)" fill="url(#linear-gradient)"/>
+  <path id="Path_77834" data-name="Path 77834" d="M102.488,306.06H72.51v4.389h29.978ZM87.5,309.951a1.337,1.337,0,1,1,1.336-1.337A1.337,1.337,0,0,1,87.5,309.951Z" transform="translate(-70.191 -286.637)" fill="url(#linear-gradient)"/>
+</svg>

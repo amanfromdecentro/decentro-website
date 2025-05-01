@@ -1,0 +1,266 @@
+@import "../../utilities/_variables.scss";
+
+.resources {
+  .banner {
+    padding-bottom: 0;
+    margin-bottom: 30px;
+
+    .right-container {
+      img {
+        width: 65%;
+      }
+    }
+  }
+
+  .resources-guide {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 80px 100px;
+
+    h2 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #0a192c;
+
+      span {
+        font-weight: 600;
+        color: #0a192c;
+      }
+    }
+
+    .resources-guide-content {
+      .inline-image-and-paragraph {
+        padding: 60px;
+        position: relative;
+
+        h2.item-header {
+          font-size: 2.125rem;
+          line-height: 34px;
+          font-weight: 700;
+          color: #096ef2;
+          width: 100%;
+        }
+
+        p {
+          margin-top: 32px;
+          font-size: 20px;
+          line-height: 36px;
+          text-align: left;
+          width: 100%;
+        }
+
+        &:nth-child(2n) {
+          flex-flow: row-reverse;
+        }
+
+        &.even-item {
+          flex-flow: row-reverse;
+        }
+
+        .paragraph {
+          justify-content: center;
+        }
+
+        .image {
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .subscribe-box-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .subscribe-box {
+      margin-top: 40px;
+    }
+  }
+
+  .text-and-button-banner {
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .resources {
+    .resources-guide {
+      padding: 50px;
+
+      h2 {
+        // font-size: 36px;
+        // line-height: 42px;
+        text-align: center;
+      }
+
+      p {
+        // font-size: 18px;
+        // line-height: 28px;
+        text-align: center;
+        margin-top: 20px;
+      }
+    }
+
+    .banner {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .resources {
+    .resources-guide {
+      padding: 30px;
+
+      h2 {
+        // font-size: 30px;
+        // line-height: 40px;
+        text-align: center;
+      }
+
+      p {
+        // font-size: 16px;
+        // line-height: 24px;
+        text-align: center;
+        margin-top: 20px;
+        width: 80%;
+        margin-bottom: 20px;
+      }
+
+      .resources-guide-content {
+        .inline-image-and-paragraph {
+          padding: 20px;
+          margin-top: 30px;
+          flex-flow: column !important;
+
+          .image {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+
+            img {
+              max-width: 310px;
+            }
+          }
+
+          .paragraph {
+            justify-content: flex-start;
+
+            h2 {
+              color: #3c3c3c;
+              font-size: 20px;
+              font-weight: 500;
+              line-height: 30px;
+              margin-top: 20px;
+              text-align: center;
+            }
+
+            p {
+              margin-top: 10px;
+              font-size: 16px;
+              line-height: 26px;
+              text-align: center;
+            }
+
+            .inline-image-text-navigation-link {
+              text-align: center;
+              justify-content: center;
+            }
+          }
+        }
+      }
+    }
+
+    .subscribe-box-input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .subscribe-box {
+        width: 60%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .resources {
+    .resources-guide {
+      h2 {
+        text-align: left;
+        align-self: flex-start;
+      }
+
+      p {
+        text-align: left;
+        align-self: flex-start;
+      }
+
+      .resources-guide-content {
+        .inline-image-and-paragraph {
+          .image {
+            img {
+              max-width: 230px;
+            }
+          }
+
+          .paragraph {
+            h2,
+            p {
+              text-align: left !important;
+              align-self: flex-start;
+            }
+
+            .inline-image-text-navigation-link {
+              text-align: left;
+              justify-content: flex-start;
+            }
+          }
+        }
+      }
+    }
+
+    .subscribe-box-input {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .subscribe-box {
+        width: calc(100% - 100px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .resources {
+    .subscribe-box-input {
+      .subscribe-box {
+        width: calc(80% - 30px);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .resources {
+    .resources-guide {
+      .resources-guide-content {
+        .inline-image-and-paragraph {
+          .image {
+            img {
+              max-width: 250px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

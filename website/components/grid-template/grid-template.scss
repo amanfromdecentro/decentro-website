@@ -1,0 +1,207 @@
+@import "../../utilities/_variables.scss";
+.skip-loop {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 50px 85px;
+  border-radius: 0px 133px 0px 0px;
+
+  h1.page-header {
+    font-size: $product-sections-header-font-size-desktop;
+    line-height: $product-sections-header-line-height-desktop;
+    line-height: 50px;
+    color: #096ef2;
+    margin: 50px;
+    margin-top: 100px;
+    font-weight: 500;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  div.search-container {
+    display: flex;
+    flex-flow: row;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #555;
+    width: 35%;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 24px;
+    border: 0;
+    margin: 50px;
+  }
+
+  div.view-more-cards-wrapper {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    button {
+      padding: 15px 60px;
+      border: 0;
+      outline: 0;
+      background: rgba(0, 0, 0, 0.06);
+      border-radius: 32px;
+      color: #000000;
+    }
+  }
+
+  input.master-search-input {
+    background: transparent;
+    outline: 0;
+    border: 0;
+    width: 100%;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #3c3c3c;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  button.load-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin-top: 40px;
+    padding: 15px 45px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    border-radius: 100px;
+    color: #ffffff;
+    border: none;
+    background: transparent linear-gradient(90deg, #3a36c6 0%, #66ceac 100%) 0%
+      0%;
+
+    img {
+      width: 50px;
+      display: none;
+    }
+  }
+
+  button.disabled-button {
+    opacity: 0.4;
+  }
+
+  .skip-loop-contents {
+    .initial {
+      display: block;
+    }
+
+    .later {
+      display: none;
+    }
+
+    .skip-loop-row {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      width: 100%;
+      grid-column-gap: 60px;
+      grid-row-gap: 60px;
+
+      .skip-loop-step {
+        // width: calc(100% / 3 - 80px);
+        border: 1px solid #e2dfdf;
+        border-radius: 10px;
+        // margin-top: 60px;
+        box-sizing: border-box;
+
+        .item {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+
+          img {
+            width: 100%;
+            display: flex;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            border-radius: 8px;
+          }
+
+          p.title,
+          p.description,
+          p.read-more-text {
+            font-weight: 500;
+            font-size: $product-sections-subheader-font-size-desktop;
+            line-height: $product-sections-subheader-line-height-desktop;
+            color: #000000;
+            text-align: left;
+            padding: 30px;
+            margin: 0;
+            width: 100%;
+            box-sizing: border-box;
+          }
+
+          p.description {
+            font-weight: 400;
+            font-size: $product-pages-body-text-font-size-desktop;
+            line-height: $product-pages-body-text-line-height-desktop;
+            padding-top: 0;
+            flex: 1;
+          }
+
+          p.read-more-text {
+            font-size: $product-pages-body-text-font-size-desktop;
+            line-height: $product-pages-body-text-line-height-desktop;
+            font-weight: 600;
+            line-height: 20px;
+            color: #096ef2;
+            padding: 0 30px 30px 30px;
+            text-align: left;
+            width: 100%;
+            flex: 0;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+
+  .skip-loop-contents {
+    .visible-content:last-child {
+      margin-top: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .skip-loop {
+    padding: 50px;
+    .skip-loop-contents {
+      .skip-loop-row {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .skip-loop {
+    padding: 50px 30px;
+    .skip-loop-contents {
+      .skip-loop-row {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+    div.search-container {
+      width: 80%;
+      margin-top: 0;
+    }
+  }
+}

@@ -1,0 +1,1016 @@
+@import "../../utilities/_variables.scss";
+.about-us {
+  .meet-our-team,
+  .mentors-and-advisors,
+  .images-list {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 80px 100px;
+    background: #f7faff;
+    border-radius: 0px 133px 0px 0px;
+    h2 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #0a192c;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    p {
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: $product-pages-body-text-line-height-desktop;
+      font-weight: 400;
+      color: #68727d;
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    p.tagline {
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: $product-pages-body-text-line-height-desktop;
+      font-weight: 400;
+      color: #68727d;
+      margin-top: 20px;
+      text-align: center;
+      width: 85%;
+    }
+
+    .team-members {
+      width: 100%;
+      display: flex;
+      flex-flow: column;
+
+      .members-row {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+
+        .member {
+          position: relative;
+          padding: 40px;
+          display: flex;
+          flex-flow: column;
+          align-items: center;
+          background: #ffffff;
+          border-radius: 10px;
+          box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.04);
+
+          .member-text {
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            margin-bottom: 20px;
+
+            img {
+              width: 150px;
+            }
+
+            div.name {
+              margin-top: 30px;
+
+              div {
+                font-size: 24px;
+                font-weight: 600;
+                color: #096ef2;
+                text-align: center;
+              }
+            }
+
+            span {
+              margin-top: 10px;
+              font-size: 16px;
+              font-weight: 400;
+              color: #8b8b8b;
+              text-align: center;
+            }
+          }
+
+          .member-info {
+            opacity: 0;
+            position: absolute;
+            top: 40px;
+            left: 40px;
+            bottom: 40px;
+            right: 40px;
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            justify-content: flex-start;
+            height: max-content;
+
+            .member-head {
+              display: flex;
+              flex-flow: row;
+              align-items: flex-start;
+              align-self: flex-start;
+
+              img {
+                width: 60px;
+              }
+
+              .member-intro {
+                display: flex;
+                flex-flow: column;
+                margin-left: 15px;
+
+                label {
+                  font-size: 18px;
+                  font-weight: 500;
+                  color: #096ef2;
+                }
+
+                span {
+                  margin-top: 5px;
+                  font-size: 15px;
+                  font-weight: 400;
+                  color: #8b8b8b;
+                }
+              }
+            }
+
+            p {
+              text-align: left !important;
+              font-size: 16px;
+              font-weight: 400;
+              line-height: 1.5;
+              color: #3c3c3c;
+              margin-top: 20px;
+              height: 170px;
+              overflow-y: auto;
+            }
+
+            p::-webkit-scrollbar {
+              width: 10px;
+            }
+
+            p::-webkit-scrollbar-track {
+              width: 5px;
+              box-shadow: inset 0 0 2px grey;
+            }
+
+            p::-webkit-scrollbar-thumb {
+              background-color: #c1c1c1;
+            }
+          }
+
+          a {
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 30px;
+            background: #e9ebef;
+            border-radius: 50%;
+            transition: 0.3s;
+            margin-top: auto;
+
+            svg {
+              color: #ffffff;
+            }
+          }
+
+          a:hover {
+            background: transparent
+              linear-gradient(90deg, #096ef2 0%, #0092ff 100%) 0% 0% no-repeat
+              padding-box;
+          }
+        }
+      }
+    }
+  }
+
+  .mentors-and-advisors {
+    .team-members {
+      .members-row {
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+
+        .member {
+          .member-text {
+            img {
+              border: 3px solid #0092ff;
+              border-radius: 50%;
+            }
+          }
+
+          .member-info {
+            .member-head {
+              img {
+                border: 3px solid #0092ff;
+                border-radius: 50%;
+              }
+            }
+
+            p {
+              height: 130px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .our-investors,
+  .media {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 100px;
+
+    h2 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #0a192c;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    p {
+      font-size: $product-pages-body-text-font-size-desktop;
+      line-height: $product-pages-body-text-line-height-desktop;
+      font-weight: 400;
+      color: #68727d;
+      margin-top: 20px;
+    }
+
+    .investors-images {
+      width: 100%;
+      max-width: 1200px;
+      margin-top: 50px;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: space-between;
+
+      .image {
+        width: 22%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          max-width: 100%;
+          margin-top: 16px;
+        }
+
+        img.uv {
+          width: 100px;
+        }
+
+        img.somacapital {
+          max-width: 195px;
+        }
+
+        img.upsparks {
+          max-width: 185px;
+        }
+
+        img.rapyd {
+          max-width: 165px;
+        }
+      }
+    }
+
+    .media-images {
+      width: 100%;
+      max-width: 1200px;
+      margin-top: 50px;
+      display: flex;
+      flex-flow: row;
+      align-items: center;
+      justify-content: space-between;
+
+      .image {
+        width: 13%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          max-width: 100%;
+        }
+      }
+    }
+
+    .media-images:last-child {
+      width: 100%;
+      margin-top: 0;
+
+      .image {
+        width: calc(100% / 3);
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .image:first-child {
+        img {
+          width: 100%;
+          max-width: 140px;
+        }
+      }
+
+      .image:nth-child(2) {
+        img {
+          width: 100%;
+          max-width: 250px;
+        }
+      }
+
+      .image:nth-child(3) {
+        img {
+          width: 100%;
+          max-width: 150px;
+        }
+      }
+    }
+  }
+
+  .images-list {
+    .content-list {
+      margin-top: 50px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .image-content {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 100%;
+          max-width: 180px;
+          margin-bottom: 30px;
+        }
+
+        img.yourstory {
+          max-width: 150px;
+        }
+
+        img.inc42 {
+          max-width: 130px;
+        }
+
+        img.techcrunch {
+          max-width: 230px;
+        }
+
+        img.crunchbase {
+          max-width: 200px;
+        }
+
+        img.entrepreneur {
+          max-width: 200px;
+        }
+
+        img.analytics-india-magazine {
+          max-width: 120px;
+        }
+
+        img.IBSI {
+          max-width: 245px;
+        }
+      }
+    }
+
+    .row1,
+    .row2 {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .image-content {
+        img.vcc-logo {
+          max-width: 110px;
+        }
+
+        img.the-startup-lab {
+          max-width: 100px;
+        }
+
+        img.ycombinator {
+          max-width: 215px;
+        }
+
+        img.banking-finance {
+          max-width: 150px;
+        }
+      }
+    }
+  }
+
+  .where-we-work {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 80px 100px;
+    position: relative;
+
+    h2 {
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 400;
+      color: #0a192c;
+
+      span {
+        font-weight: 600;
+      }
+    }
+
+    img {
+      width: 80%;
+      margin-top: 50px;
+      display: none;
+    }
+
+    .location-cards {
+      display: flex;
+    }
+
+    .location-container {
+      margin-top: 60px;
+      display: flex;
+      flex-flow: row;
+      gap: 30px;
+      justify-content: center;
+
+      .location-box {
+        width: 35%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        box-shadow: 0px 10px 20px #0000000a;
+        border-radius: 10px;
+        opacity: 1;
+        padding: 30px 40px;
+        cursor: pointer;
+        justify-content: flex-start;
+
+        .location-identifier {
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          justify-content: center;
+
+          .location-name {
+            color: #096ef2;
+            font-size: $product-sections-subheader-font-size-desktop;
+            line-height: $product-sections-subheader-line-height-desktop;
+            text-align: center;
+            font-weight: 600;
+            margin-left: 15px;
+          }
+        }
+
+        .address {
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          justify-content: center;
+          margin-top: 30px;
+
+          p {
+            width: 80%;
+            text-align: center;
+            font-size: $product-pages-body-text-font-size-desktop;
+            line-height: $product-pages-body-text-line-height-desktop;
+            color: #000000;
+            font-weight: 500;
+          }
+        }
+      }
+
+      img.location-flag-img {
+        display: flex;
+        height: 42px;
+        width: 42px;
+        margin: 0%;
+      }
+    }
+
+    // .map-click-area.top-left {
+    //     position: absolute;
+    //     top: 100px;
+    //     left: 0;
+    //     width: 50%;
+    //     height: 50%;
+    //     cursor: pointer;
+    // }
+
+    // .map-click-area.bottom-right {
+    //     position: absolute;
+    //     bottom: 0;
+    //     right: 0;
+    //     width: 50%;
+    //     height: 50%;
+    //     cursor: pointer;
+    // }
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .about-us {
+    .mentors-and-advisors,
+    .meet-our-team {
+      .team-members {
+        .members-row {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .about-us {
+    .meet-our-team,
+    .mentors-and-advisors,
+    .our-investors,
+    .media,
+    .where-we-work {
+      h2 {
+        // font-size: 36px;
+        // line-height: 42px;
+        text-align: center;
+      }
+
+      p {
+        // font-size: 18px;
+        // line-height: 28px;
+        text-align: left;
+        margin-top: 20px;
+      }
+    }
+
+    .meet-our-team,
+    .mentors-and-advisors {
+      padding: 50px;
+
+      .team-members {
+        .members-row {
+          grid-template-columns: repeat(4, 1fr);
+
+          .member {
+            padding: 20px;
+
+            .member-text {
+              div.name {
+                div {
+                  font-size: 20px;
+                }
+              }
+
+              span {
+                font-size: 16px;
+              }
+            }
+
+            .member-info {
+              top: 20px;
+              left: 20px;
+              bottom: 20px;
+              right: 20px;
+
+              p {
+                height: 145px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .mentors-and-advisors,
+    .meet-our-team {
+      .team-members {
+        .members-row {
+          grid-template-columns: repeat(3, 1fr);
+        }
+      }
+    }
+
+    .our-investors,
+    .media {
+      padding: 50px;
+
+      .investors-images {
+        margin-top: 0px;
+
+        .image {
+          width: 100%;
+          height: 100px;
+
+          img {
+            max-width: 200px;
+            max-height: 100%;
+          }
+        }
+      }
+
+      .media-images {
+        margin-top: 0px;
+
+        .image {
+          width: 100%;
+          margin-top: 20px;
+
+          img {
+            max-width: 120px;
+          }
+        }
+      }
+    }
+
+    .mentors-and-advisors {
+      margin-top: 0px;
+    }
+
+    .where-we-work {
+      padding: 50px;
+
+      img {
+        width: 100%;
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .about-us {
+    .meet-our-team,
+    .mentors-and-advisors,
+    .our-investors,
+    .media,
+    .where-we-work,
+    .images-list {
+      h2 {
+        // font-size: 30px;
+        // line-height: 40px;
+        text-align: center;
+      }
+
+      p {
+        // font-size: 16px;
+        // line-height: 24px;
+        text-align: left;
+        margin-top: 20px;
+      }
+    }
+
+    .meet-our-team,
+    .mentors-and-advisors {
+      margin-top: 50px;
+      padding: 30px 30px 50px 30px;
+      border-radius: unset;
+
+      .team-members {
+        .members-row {
+          flex-flow: row;
+          flex-wrap: wrap;
+          grid-template-columns: repeat(2, 1fr);
+
+          .member {
+            padding: 20px;
+
+            .member-text {
+              div.name {
+                margin-top: 20px;
+
+                div {
+                  font-size: 18px;
+                }
+              }
+
+              span {
+                font-size: 14px;
+              }
+            }
+
+            .member-info {
+              top: 20px;
+              left: 20px;
+              bottom: 20px;
+              right: 20px;
+
+              p {
+                height: 110px;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .our-investors,
+    .media {
+      padding: 30px;
+    }
+
+    .mentors-and-advisors {
+      margin-top: 0px;
+    }
+
+    .images-list {
+      .content-list {
+        flex-flow: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+
+        .image-content {
+          width: calc(100% / 2);
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+
+    .where-we-work {
+      padding: 30px;
+
+      .location-container {
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+
+        .location-box {
+          width: 60%;
+        }
+      }
+
+      img {
+        width: 100%;
+        margin-top: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .about-us {
+    .meet-our-team {
+      h2,
+      p {
+        align-self: flex-start;
+        text-align: left;
+      }
+
+      .team-members {
+        .members-row {
+          flex-flow: column;
+          grid-template-columns: repeat(1, 1fr);
+
+          .member {
+            padding: 20px;
+
+            .member-info {
+              .member-head {
+                align-self: flex-start;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .mentors-and-advisors {
+      .team-members {
+        .members-row {
+          flex-flow: column;
+          grid-template-columns: repeat(1, 1fr);
+
+          .member {
+            padding: 20px;
+
+            .member-text {
+              img {
+                border: 3px solid #0092ff;
+                border-radius: 50%;
+              }
+            }
+
+            .member-info {
+              .member-head {
+                align-self: flex-start;
+
+                img {
+                  border: 3px solid #0092ff;
+                  border-radius: 50%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .media {
+      h2 {
+        align-self: flex-start;
+        text-align: left;
+      }
+
+      .media-images {
+        flex-flow: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .image {
+          width: 40%;
+          justify-content: flex-start;
+
+          a {
+            img {
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      .media-images:last-child {
+        width: 100%;
+
+        .image {
+          width: 40%;
+          display: flex;
+          flex-flow: row;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .image:first-child {
+          img {
+            width: 100%;
+            max-width: 115px;
+          }
+        }
+
+        .image:nth-child(2) {
+          img {
+            width: 165px;
+          }
+        }
+
+        .image:nth-child(3) {
+          img {
+            width: 100%;
+            max-width: 120px;
+          }
+        }
+      }
+    }
+
+    .our-investors {
+      align-items: flex-start;
+
+      h2,
+      p {
+        text-align: left;
+      }
+
+      .investors-images {
+        flex-flow: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        .image {
+          width: 40%;
+
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .mentors-and-advisors {
+      h2,
+      p {
+        align-self: flex-start;
+        text-align: left;
+      }
+    }
+
+    .images-list {
+      .content-list {
+        flex-flow: column;
+      }
+    }
+
+    .where-we-work {
+      img {
+        display: none;
+      }
+
+      div.map-click-area {
+        display: none;
+      }
+
+      .location-cards {
+        display: flex;
+        flex-flow: row;
+        padding: 20px;
+        justify-content: space-between;
+
+        div {
+          width: calc(50% - 50px);
+          height: 245px;
+          margin-top: 50px;
+          padding: 20px;
+          display: flex;
+          flex-flow: column;
+          background: #ffffff;
+          border-radius: 10px;
+          box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.04);
+          position: relative;
+          text-align: center;
+          justify-content: space-between;
+
+          p.location {
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: 600;
+            color: #096ef2;
+          }
+
+          p.address {
+            font-size: 16px;
+            line-height: 20px;
+            margin-top: 15px;
+          }
+
+          p.take-me-there {
+            display: inline-block;
+            align-items: center;
+            padding: 0;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 30px;
+            color: #096ef2;
+            border: none;
+            background: none;
+            margin-top: 20px;
+
+            svg {
+              margin-left: 10px;
+              font-size: 16px;
+            }
+          }
+        }
+      }
+
+      .location-container {
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+
+        .location-box {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-us {
+    .where-we-work {
+      .location-cards {
+        flex-flow: column;
+
+        div {
+          width: calc(100% - 50px);
+        }
+      }
+    }
+  }
+}

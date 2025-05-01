@@ -1,0 +1,15 @@
+<svg id="Employee" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36.01" viewBox="0 0 36 36.01">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_9739" data-name="Rectangle 9739" width="36" height="36.01" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_37124" data-name="Group 37124" clip-path="url(#clip-path)">
+    <path id="Path_80112" data-name="Path 80112" d="M14.064,0h1.266c.24.044.48.084.719.133A8.069,8.069,0,0,1,22.72,6.342a8.037,8.037,0,0,1-2.882,8.615,8.114,8.114,0,0,1-4.451,1.822,14.285,14.285,0,0,1,7.763,2.786A9.994,9.994,0,0,0,22.017,36h-.458q-10.07,0-20.14.01A1.37,1.37,0,0,1,0,35.229V30.307c.107-.68.162-1.373.329-2.037,1.53-6.1,5.493-9.717,11.527-11.174.7-.17,1.435-.222,2.222-.339-.137-.011-.207-.015-.276-.023A8.218,8.218,0,0,1,6.32,7.367a8.034,8.034,0,0,1,6-7.014C12.894.208,13.482.116,14.064,0" fill="url(#linear-gradient)"/>
+    <path id="Path_80113" data-name="Path 80113" d="M229.573,218.7l-5.342,5.337c-.453-.456-.908-.939-1.393-1.39a1.585,1.585,0,0,0-.653-.373.973.973,0,0,0-1.081.473,1,1,0,0,0,.094,1.211c.779.811,1.57,1.611,2.384,2.387a1.031,1.031,0,0,0,1.483-.108c.924-.915,1.841-1.838,2.76-2.758l2.859-2.858c.082-.081.167-.159.252-.241a7.808,7.808,0,1,1-1.364-1.68" transform="translate(-196.098 -196.251)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

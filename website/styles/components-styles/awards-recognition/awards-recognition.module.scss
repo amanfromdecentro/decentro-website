@@ -1,0 +1,99 @@
+@import "../../../utilities/variables";
+
+.awards-recognition {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 50px 100px;
+
+  h2 {
+    font-size: $product-sections-header-font-size-desktop;
+    line-height: $product-sections-header-line-height-desktop;
+    font-weight: 400;
+    color: #0a192c;
+
+    span {
+      font-weight: 600;
+    }
+  }
+
+  p.tagline {
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: 22px;
+    font-weight: 400;
+    color: #68727d;
+    margin-top: 20px;
+    text-align: center;
+    width: 85%;
+  }
+
+  .awards-recognition-steps {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+
+    .item {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 200px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .awards-recognition {
+    padding: 50px;
+
+    .awards-recognition-steps {
+      width: 100%;
+      align-items: stretch;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .awards-recognition {
+    padding: 50px 30px;
+
+    h2 {
+      text-align: left;
+      width: 100%;
+    }
+
+    p.tagline {
+      text-align: left;
+      margin-top: 20px;
+      width: 100%;
+    }
+
+    .awards-recognition-steps {
+      margin-top: 0px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 60px;
+
+      .item {
+        max-width: 220px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .awards-recognition {
+    .awards-recognition-steps {
+      gap: 35px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+}

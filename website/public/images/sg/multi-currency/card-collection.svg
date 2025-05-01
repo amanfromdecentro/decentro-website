@@ -1,0 +1,11 @@
+<svg id="card_collect" data-name="card collect" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="30.913" viewBox="0 0 35 30.913">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.765" x2="0.071" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_90407" data-name="Path 90407" d="M33.418,17.655l1.544,1.595V10.268H0V26.349a3.475,3.475,0,0,0,2.463,2.462H18.157C14.58,19.47,25.587,11.381,33.418,17.655ZM11.34,24.747a42.209,42.209,0,0,1-6.261,0,1.056,1.056,0,0,1,0-2.108,41.561,41.561,0,0,1,6.173-.008,1.5,1.5,0,0,1,.788.322,1.061,1.061,0,0,1-.7,1.794Z" transform="translate(0 -2.043)" fill="url(#linear-gradient)"/>
+  <path id="Path_90408" data-name="Path 90408" d="M34.962,4.521c0-1.016-1.7-2.515-2.754-2.462L2.941,2.054C1.818,1.9,0,3.456,0,4.521V8.239H34.962V4.521Z" transform="translate(0 -2.043)" fill="url(#linear-gradient)"/>
+  <path id="Path_90409" data-name="Path 90409" d="M26.443,17.54a7.733,7.733,0,1,0,7.783,11.066A7.755,7.755,0,0,0,26.443,17.54Zm5.045,6.686a41.552,41.552,0,0,1-4.008,4.1c-.479.4-.972.721-1.591.331a27.035,27.035,0,0,1-2.341-2.391,1.012,1.012,0,0,1,.937-1.525c.808.024,1.334,1.214,2.014,1.546.225-.04,2.739-2.827,3.248-3.229a1.812,1.812,0,0,1,.75-.416,1.052,1.052,0,0,1,.991,1.579Z" transform="translate(0 -2.043)" fill="url(#linear-gradient)"/>
+</svg>

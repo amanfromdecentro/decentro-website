@@ -1,0 +1,10 @@
+<svg id="Split_Payment" data-name="Split Payment" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="42.671" height="26.731" viewBox="0 0 42.671 26.731">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1" x2="1.872" y2="-0.15" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#306cea"/>
+      <stop offset="1" stop-color="#0092ff"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_87081" data-name="Path 87081" d="M20.2,16.27C21.578,12.5,22.959,8.991,24.465,5.1H2V27.816H16.307c1.883,0,2.887-.377,3.514-2.259,1-2.887,2.134-5.648,3.263-8.409v-.628a24.087,24.087,0,0,1-2.761-.377Z" transform="translate(-2 -1.085)" fill="url(#linear-gradient)"/>
+  <path id="Path_87082" data-name="Path 87082" d="M32.931,1.9Q24.9,1.9,22.138,9.3c-.5,1.381-1.13,2.887-1.632,4.393a30.11,30.11,0,0,0,3.012.5C21.887,17.713,20.506,20.976,19,24.365H40.335V1.9Z" transform="translate(2.335 -1.9)" fill="url(#linear-gradient)"/>
+</svg>

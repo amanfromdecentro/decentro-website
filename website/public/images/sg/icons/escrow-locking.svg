@@ -1,0 +1,11 @@
+<svg id="Escrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41.208" height="34.889" viewBox="0 0 41.208 34.889">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="-0.158" x2="0.332" y2="1.17" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0092ff"/>
+      <stop offset="1" stop-color="#1656db"/>
+    </linearGradient>
+  </defs>
+  <path id="Path_68644" data-name="Path 68644" d="M39.635,352.919v-4.23H37.091v-3.633H30.064v3.633H24.117v-3.633H17.091v3.633H11.144v-3.633H4.117v3.633H1.573v4.23H0v2.415H41.208v-2.415Z" transform="translate(0 -320.444)" fill="url(#linear-gradient)"/>
+  <path id="Path_68645" data-name="Path 68645" d="M23.127,153.042h4.951l-.342-10.256h8.706L36.1,153.042H41.05l-.342-10.256h8.706l-.342,10.256h4.951l-.342-10.256h3.924v-3.925H19.544v3.925h3.924Z" transform="translate(-17.972 -130.845)" fill="url(#linear-gradient)"/>
+  <path id="Path_68646" data-name="Path 68646" d="M68.719,39.251l-16.393,5.6H85.112Z" transform="translate(-48.116 -39.251)" fill="url(#linear-gradient)"/>
+</svg>

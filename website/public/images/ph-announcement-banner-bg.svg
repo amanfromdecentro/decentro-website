@@ -1,0 +1,26 @@
+<svg id="Component_1288_1" data-name="Component 1288 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="120" viewBox="0 0 1920 120">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#da552e"/>
+      <stop offset="1" stop-color="#ff3100"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#da552e"/>
+      <stop offset="1" stop-color="#ff7600"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_10731" data-name="Rectangle 10731" width="1920" height="120" fill="url(#linear-gradient)"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff8900"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect id="Rectangle_10730" data-name="Rectangle 10730" width="1920" height="120" fill="url(#linear-gradient-2)"/>
+  <g id="Mask_Group_36797" data-name="Mask Group 36797" clip-path="url(#clip-path)">
+    <g id="Products_Sold_Graph" data-name="Products Sold Graph" transform="translate(74.354 -285.041) rotate(9)" opacity="0.474">
+      <path id="Filled.Graph" d="M15.687,92.96,0,0S241.88,83.2,427.569,104.794c199.463,15.495,229.707-7.274,379.655-27.312,128.262-16.387,259.731-11.644,387.563,2.654s243.644,56.416,394.777,74.1c263.458,12.489,387.9-40.279,401.208-66.03,1.416,8.392,39.167,232.107,39.167,232.107L21.538,127.636Z" transform="matrix(0.978, -0.208, 0.208, 0.978, -76.815, 328.626)" opacity="0.7" fill="url(#linear-gradient-3)"/>
+      <path id="Line.Graph" d="M313,347.344s234.791,60.188,420.433,61.484,256.948-31.06,399.138-61.4,277.364-35.523,401.812-34.5,245.429,32.819,398.339,34.507,400.285-54.967,427.793-102.187" transform="translate(-523.213 -121.591)" fill="none" stroke="#ff8900" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

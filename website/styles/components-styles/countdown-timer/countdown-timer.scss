@@ -1,0 +1,209 @@
+@import "../../../utilities/_variables.scss";
+
+.countdown {
+  width: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  .countdown-wrapper {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .colon {
+    float: left;
+    margin-right: 10px;
+    color: #fff;
+    font-size: $product-sections-header-font-size-desktop;
+    line-height: $product-sections-header-line-height-desktop;
+    font-weight: 700;
+    margin-bottom: auto;
+  }
+
+  .bloc-time {
+    display: flex;
+    flex-flow: row;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .count-title {
+    display: inline-flex;
+    font-size: $product-pages-body-text-font-size-desktop;
+    line-height: $product-pages-body-text-line-height-desktop;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .figure {
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 45px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2),
+      inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+    overflow: hidden;
+    &:last-child {
+      margin-right: 0;
+      overflow: hidden;
+    }
+
+    > span {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin: auto;
+      font-size: $product-sections-header-font-size-desktop;
+      line-height: $product-sections-header-line-height-desktop;
+      font-weight: 700;
+      color: #0b192c;
+    }
+
+    .top,
+    .bottom-back {
+      &:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+      }
+    }
+
+    .top {
+      z-index: 3;
+      background-color: #f7f7f7;
+      transform-origin: 50% 100%;
+      -webkit-transform-origin: 50% 100%;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      transform: perspective(200px);
+      -webkit-transform: perspective(200px);
+    }
+
+    .bottom {
+      z-index: 1;
+
+      &:before {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background-color: rgba(0, 0, 0, 0.02);
+      }
+    }
+
+    .bottom-back {
+      z-index: 2;
+      top: 0;
+      height: 50%;
+      overflow: hidden;
+      background-color: #f7f7f7;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+
+      span {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+
+    .top,
+    .top-back {
+      height: 100%;
+      overflow: hidden;
+      backface-visibility: hidden;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .top-back {
+      z-index: 4;
+      bottom: 0;
+      background-color: #fff;
+      -webkit-transform-origin: 50% 0;
+      transform-origin: 50% 0;
+      transform: perspective(200px) rotateX(180deg);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+
+      span {
+        position: absolute;
+        top: -100%;
+        left: 0;
+        right: 0;
+        margin: auto;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .countdown {
+    justify-content: center;
+    .figure {
+      width: 35px;
+      height: 45px;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .countdown {
+    justify-content: center;
+    .figure {
+      width: 20px;
+      height: 20px;
+      margin-right: 5px;
+      span {
+        font-size: 1rem;
+        line-height: $product-sections-header-line-height-desktop;
+        font-weight: 700;
+      }
+
+      .count-title {
+        font-size: 1rem;
+      }
+    }
+    .colon {
+      font-size: 1rem;
+      margin-right: 5px;
+      margin-bottom: auto;
+      margin-top: -10px;
+    }
+
+    .bloc-time {
+      margin-right: 5px;
+    }
+    .count-title {
+      margin-right: 0;
+      font-size: 0.8rem;
+      line-height: $product-sections-header-line-height-desktop;
+      margin-right: 0;
+      margin-top: 5px;
+    }
+  }
+}

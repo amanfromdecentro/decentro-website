@@ -1,0 +1,77 @@
+@import "../../../utilities/_variables.scss";
+
+.text-and-button-banner-transparent {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 100px;
+  p {
+    color: #0a192c;
+    font-size: 2rem;
+    line-height: 40px;
+    font-weight: 400;
+    text-align: center;
+    span {
+      font-weight: 600;
+    }
+    a.reference-link {
+      text-decoration: none;
+      color: #096ef2;
+      font-size: 30px;
+      line-height: 40px;
+      font-weight: 400;
+      display: inline;
+      background: none;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin-top: 40px;
+    padding: 15px 45px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #ffffff;
+    background: transparent linear-gradient(90deg, #0092ff 0%, #1656db 100%) 0%
+      0% no-repeat padding-box;
+    border-radius: 100px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .text-and-button-banner-transparent {
+    padding: 50px;
+
+    button {
+      padding: 15px 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .text-and-button-banner-transparent {
+    padding: 50px 30px;
+
+    button {
+      margin-top: 20px;
+      padding: 15px 30px;
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .text-and-button-banner-transparent {
+    a {
+      font-size: 18px;
+      font-weight: 500;
+      padding: 10px 45px;
+    }
+  }
+}
